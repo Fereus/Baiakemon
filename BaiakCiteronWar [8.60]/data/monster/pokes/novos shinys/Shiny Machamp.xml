@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Machamp" nameDescription="a Shiny machamp" race="fighting" experience="1084" speed="137" manacost="0">
+    <health now="280" max="280"/>
+    <look type="1231" head="55" body="80" legs="95" feet="113" corpse="13418"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        <flag hungerdelay="19"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="1000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Triple Punch" interval="1758" chance="50" range="1"/>
+        <attack name="Mega Punch" interval="1805" chance="59" range="1"/>
+        <attack name="Karate Chop" interval="1805" chance="59" range="1"/>
+        <attack name="Ground Chop" interval="2852" chance="59" range="4"/>
+        <attack name="Mega Kick" interval="1134" chance="47" range="1"/>
+        <attack name="Fist Machine" interval="1604" chance="34" range="6"/>
+        <attack name="Strafe" interval="2625" chance="18" range="6"/>
+		<attack name="Destroyer Hand" interval="2625" chance="38" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="Norris cade voce!"/>
+    </voices>
+    <loot>
+        <item id="12195" chance="19000" countmax="3"/>
+        <item id="11446" chance="2500" count="1" countmax="1"/>
+        <item id="12337" chance="40000" countmax="100"/>
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

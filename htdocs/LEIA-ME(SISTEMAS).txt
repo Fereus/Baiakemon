@@ -1,0 +1,6 @@
+Aqui estão os sistemas que você deve adicionar no seu ot para funcionar o site!
+
+http://www.xtibia.com/forum/topic/147460-gesior-acc-trade-offline/ - Trade Offline
+http://www.xtibia.com/forum/topic/155489-gesior-acc-guild-war-system-com-escudos/ - Guild War Com Escudos
+http://www.xtibia.com/forum/topic/147391-globalevents-lottery-system/ - Lottery System
+http://www.xtibia.com/forum/topic/147394-globalevents-entregando-itens-do-site-automaticamente/ - Shop System(Para o Shop entregar os itens automaticamente)!

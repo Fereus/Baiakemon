@@ -1,0 +1,128 @@
+body {
+  font-family : Verdana, Arial, Times New Roman, sans-serif;
+  background-color: #051122;
+  margin: 0px;
+  padding: 0px;
+}
+#ArtworkHelper {
+  text-align: center;
+  background-position: top center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-width: 1000px;
+}
+#BoxesContainer {
+  position: relative;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+#Boxes {
+  position: relative;
+  left: 5px;
+  top: 0px;
+  width: 294px;
+  height: 667px;
+}
+#BoxesBackground {
+  left: 0px;
+  top: 15px;
+  width: 294px;
+  height: 560px;
+}
+#FeatureText {
+  position: absolute;
+  top: 118px;
+  left: 25px;
+  width: 230px;
+  color: #e0e0e0;
+  text-align: left;
+  font-size: 11pt;
+  font-weight: bold;
+  list-style-type: circle;
+  list-style-position: outside;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 15px;
+}
+#ScreenShotContainer {
+  position: absolute;
+  top: 357px;
+  left: 16px;
+  width: 261;
+  height: 190;
+}
+#ScreenShotNavigator {
+  position: absolute;
+  top: 324px;
+  left: 17px;
+  width: 260;
+  height: 33;
+}
+#ScreenShotNavigator .NavigationArrow {
+  position: relative;
+  top: 2px;
+  width: 33px;
+  height: 22px;
+  float: left;
+  cursor: pointer;
+}
+#ScreenShotNavigator .Number {
+  float: left;
+  width: 23px;
+  height: 26px;
+  margin-right: 1px;
+  cursor: pointer;
+}
+a:link {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+a:visited {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+a:focus {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  text-decoration: underline;
+}
+a:hover {
+  color: white;
+  text-decoration: underline; 
+}
+#PlayFree {
+  position: absolute;
+  top: 267px;
+  left: 58px;
+  width: 178px;
+  height: 41px;
+  cursor: pointer;
+  z-index: 100;
+}
+#Header {
+  font-size: 7pt;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding-bottom: 0px;
+  color: #e0e0e0;
+}
+#Header a {
+  text-decoration: underline;
+}
+#Footer {
+  font-size: 7pt;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding-bottom: 20px;
+  color: #e0e0e0;
+}

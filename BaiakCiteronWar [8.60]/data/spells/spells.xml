@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+	<!-- Attack Runes -->
+	<rune name="Poison Field" id="2285" allowfaruse="1" charges="3" lvl="14" maglv="0" exhaustion="2000" blocktype="solid" event="script" value="attack/poison field.lua"/>
+	<rune name="Poison Bomb" id="2286" allowfaruse="1" charges="2" lvl="25" maglv="4" exhaustion="2000" blocktype="solid" event="script" value="attack/poison bomb.lua"/>
+	<rune name="Poison Wall" id="2289" allowfaruse="1" charges="4" lvl="29" maglv="5" exhaustion="2000" blocktype="solid" event="script" value="attack/poison wall.lua"/>
+	<rune name="Fire Field" id="2301" allowfaruse="1" charges="3" lvl="15" maglv="1" exhaustion="2000" blocktype="solid" event="script" value="attack/fire field.lua"/>
+	<rune name="Firebomb" id="2305" allowfaruse="1" charges="2" lvl="27" maglv="5" exhaustion="2000" blocktype="solid" event="script" value="attack/fire bomb.lua"/>
+	<rune name="Fire Wall" id="2303" allowfaruse="1" charges="4" lvl="33" maglv="6" exhaustion="2000" blocktype="solid" event="script" value="attack/fire wall.lua"/>
+	<rune name="Soulfire" id="2308" allowfaruse="1" charges="3" lvl="27" maglv="7" exhaustion="2000" needtarget="1" blocktype="solid" event="script" value="attack/soul fire.lua"/>
+	<rune name="Fireball" id="2302" allowfaruse="1" charges="5" lvl="27" maglv="4" exhaustion="2000" needtarget="1" blocktype="solid" event="script" value="attack/fireball.lua"/>
+	<rune name="Great Fireball" id="2304" allowfaruse="1" charges="4" lvl="30" maglv="4" exhaustion="2000" blocktype="solid" event="script" value="attack/great fireball.lua"/>
+	<rune name="Energy Field" id="2277" allowfaruse="1" charges="3" lvl="18" maglv="3" exhaustion="2000" blocktype="solid" event="script" value="attack/energy field.lua"/>
+	<rune name="Energybomb" id="2262" allowfaruse="1" charges="2" lvl="37" maglv="10" exhaustion="2000" blocktype="solid" event="script" value="attack/energy bomb.lua"/>
+	<rune name="Energy Wall" id="2279" allowfaruse="1" charges="4" lvl="41" maglv="9" exhaustion="2000" blocktype="solid" event="script" value="attack/energy wall.lua"/>
+	<rune name="Light Magic Missile" id="2287" allowfaruse="1" charges="10" lvl="15" exhaustion="2000" maglv="0" needtarget="1" blocktype="solid" event="script" value="attack/light magic missile.lua"/>
+	<rune name="Heavy Magic Missile" id="2311" allowfaruse="1" charges="10" lvl="25" exhaustion="2000" maglv="3" needtarget="1" blocktype="solid" event="script" value="attack/heavy magic missile.lua"/>
+	<rune name="Explosion" id="2313" allowfaruse="1" charges="6" lvl="31" maglv="6" exhaustion="2000" blocktype="solid" event="script" value="attack/explosion.lua"/>
+	<rune name="Sudden Death" id="2268" allowfaruse="1" charges="3" lvl="45" maglv="15" exhaustion="900" needtarget="1" blocktype="solid" event="script" value="attack/sudden death.lua"/>
+	<rune name="Icicle" id="2271" allowfaruse="1" charges="5" lvl="28" maglv="4" exhaustion="2000" needtarget="1" event="script" value="attack/icicle.lua"/>
+	<rune name="Avalanche" id="2274" allowfaruse="1" charges="4" lvl="30" maglv="4" exhaustion="2000" event="script" value="attack/avalanche.lua"/>
+	<rune name="Stone Shower" id="2288" allowfaruse="1" charges="4" lvl="28" maglv="4" exhaustion="2000" event="script" value="attack/stone shower.lua"/>
+	<rune name="Thunderstorm" id="2315" allowfaruse="1" charges="4" lvl="28" maglv="4" exhaustion="2000" event="script" value="attack/thunderstorm.lua"/>
+	<rune name="Stalagmite" id="2292" allowfaruse="1" charges="10" lvl="24" maglv="3" exhaustion="2000" needtarget="1" event="script" value="attack/stalagmite.lua"/>
+	<rune name="Holy Missile" id="2295" allowfaruse="1" charges="5" lvl="27" maglv="4" exhaustion="2000" needtarget="1" blocktype="solid" event="script" value="attack/holy missile.lua">
+		<vocation id="3"/>
+		<vocation id="7" showInDescription="0"/>
+	</rune>
+
+	<!-- Healing Runes -->
+	<rune name="Antidote Rune" id="2266" allowfaruse="1" charges="1" lvl="15" maglv="0" exhaustion="1000" aggressive="0" needtarget="1" blocktype="solid" event="script" value="healing/antidote rune.lua"/>
+	<rune name="Intense Healing Rune" id="2265" allowfaruse="1" charges="1" lvl="15" maglv="1" exhaustion="1000" aggressive="0" needtarget="1" blocktype="solid" event="script" value="healing/intense healing rune.lua"/>
+	<rune name="Ultimate Healing Rune" id="2273" allowfaruse="1" charges="1" lvl="24" maglv="4" exhaustion="1000" aggressive="0" needtarget="1" blocktype="solid" event="script" value="healing/ultimate healing rune.lua"/>
+
+	<!-- Summon Runes -->
+	<rune name="Convince Creature" id="2290" allowfaruse="1" charges="1" lvl="16" maglv="5" exhaustion="2000" needtarget="1" blocktype="solid" event="function" value="convince"/>
+	<rune name="Animate Dead" id="2316" allowfaruse="1" charges="1" lvl="27" maglv="4" exhaustion="2000" blocktype="solid" event="script" value="summon/animate dead rune.lua"/>
+
+	<!-- Support Runes -->
+	<rune name="Desintegrate" id="2310" allowfaruse="0" charges="3" lvl="21" maglv="4" exhaustion="2000" range="1" event="script" value="support/desintegrate rune.lua"/>
+	<rune name="Destroy Field" id="2261" allowfaruse="1" charges="3" lvl="17" maglv="3" exhaustion="1000" aggressive="0" range="5" event="script" value="support/destroy field rune.lua"/>
+	<rune name="Chameleon" id="2291" allowfaruse="1" charges="1" lvl="27" maglv="4" exhaustion="1000" aggressive="0" selftarget="1" blocktype="solid" event="function" value="chameleon"/>
+	<rune name="Magic Wall" id="2293" allowfaruse="1" charges="3" lvl="32" maglv="9" exhaustion="2000" blocktype="all" event="script" value="support/magic wall rune.lua"/>
+	<rune name="Wild Growth" id="2269" allowfaruse="1" charges="2" lvl="27" maglv="8" exhaustion="2000" blocktype="all" event="script" value="support/wild growth rune.lua">
+		<vocation id="2"/>
+		<vocation id="6" showInDescription="0"/>
+	</rune>
+	<rune name="Paralyze" id="2278" allowfaruse="1" charges="1" lvl="54" maglv="18" exhaustion="2000" mana="1400" needtarget="1" blocktype="solid" event="script" value="support/paralyze rune.lua">
+			<vocation id="2"/>
+		<vocation id="5" showInDescription="0"/>
+			<vocation id="6"/>
+		<vocation id="6" showInDescription="0"/>
+	</rune>
+
+	<!-- Attack Spells -->
+	<instant name="Death Strike" words="exori mort" lvl="16" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/death strike.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Flame Strike" words="exori flam" lvl="12" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/flame strike.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Energy Strike" words="exori vis" lvl="12" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/energy strike.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Whirlwind Throw" words="exori hur" lvl="15" mana="40" prem="1" range="5" needtarget="1" blockwalls="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="attack/whirlwind throw.lua">
+		<vocation id="4"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Fire Wave" words="exevo flam hur" lvl="18" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/fire wave.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</instant>
+	<instant name="Ethereal Spear" words="exori con" lvl="23" mana="25" prem="1" range="5" needtarget="1" exhaustion="2000" blockwalls="1" needlearn="0" event="script" value="attack/ethereal spear.lua">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Energy Beam" words="exevo vis lux" lvl="23" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/energy beam.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</instant>
+	<instant name="Great Energy Beam" words="exevo gran vis lux" lvl="29" mana="110" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/great energy beam.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</instant>
+	<instant name="Groundshaker" words="exori mas" lvl="33" mana="160" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="attack/groundshaker.lua">
+		<vocation id="4"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Berserk" words="exori" lvl="35" mana="115" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="attack/berserk.lua">
+		<vocation id="4"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Energy Wave" words="exevo vis hur" lvl="38" mana="170" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/energy wave.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</instant>
+	<instant name="Rage of the Skies" words="exevo gran mas vis" lvl="55" mana="650" selftarget="1" prem="1" exhaustion="2000" needlearn="0" event="script" value="attack/rage of the skies.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</instant>
+	<instant name="Fierce Berserk" words="exori gran" lvl="70" mana="340" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="attack/fierce berserk.lua">
+		<vocation id="4"/>
+		<vocation id="8"/>
+	</instant>
+		<instant name="Hells Core" words="exevo gran mas flam" lvl="60" mana="1200" prem="1" exhaustion="2000" selftarget="1" needlearn="0" event="script" value="attack/hells core.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</instant>
+	<instant name="Divine Missile" words="exori san" lvl="40" mana="20" prem="1" range="4" casterTargetOrDirection="1" needlearn="0" blockwalls="1" exhaustion="2000" event="script" value="attack/divine missile.lua">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Divine Caldera" words="exevo mas san" lvl="50" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="attack/divine caldera.lua">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Eternal Winter" words="exevo gran mas frigo" lvl="60" mana="1200" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="attack/eternal winter.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Ice Strike" words="exori frigo" lvl="15" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/ice strike.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Ice Wave" words="exevo frigo hur" lvl="18" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/ice wave.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Terra Strike" words="exori tera" lvl="13" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/terra strike.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Terra Wave" words="exevo tera hur" lvl="38" mana="210" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/terra wave.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Wrath of Nature" words="exevo gran mas tera" lvl="55" mana="770" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="attack/wrath of nature.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+
+	<!-- Healing Spells -->
+	<instant name="Light Healing" words="exura" lvl="9" mana="20" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="healing/light healing.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Antidote" words="exana pox" lvl="10" mana="30" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="healing/antidote.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Antiflame" words="exana flam" lvl="15" mana="35" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="healing/antiflame.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Intense Healing" words="exura gran" lvl="11" mana="70" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="healing/intense healing.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Heal Friend" words="exura sio" lvl="18" mana="140" prem="1" aggressive="0" needtarget="1" params="1" exhaustion="2000" needlearn="0" event="script" value="healing/heal friend.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Ultimate Healing" words="exura vita" lvl="20" mana="160" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="healing/ultimate healing.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Mass Healing" words="exura gran mas res" lvl="36" mana="150" prem="1" aggressive="0" exhaustion="1000" needlearn="0" event="script" value="healing/mass healing.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Divine Healing" words="exura san" lvl="35" mana="210" prem="1" selftarget="1" aggressive="0" exhaustion="1000" needlearn="0" event="script" value="healing/divine healing.lua">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Wound Cleansing" words="exana mort" lvl="30" mana="65" prem="1" selftarget="1" aggressive="0" exhaustion="1000" needlearn="0" event="script" value="healing/wound cleasing.lua">
+		<vocation id="4"/>
+		<vocation id="8"/>
+	</instant>
+
+	<!-- Support Spells -->
+	<instant name="Light" words="utevo lux" lvl="8" mana="20" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/light.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Find Person" words="exiva" lvl="8" mana="20" aggressive="0" params="1" exhaustion="1000" needlearn="0" event="function" value="searchPlayer">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Magic Rope" words="exani tera" lvl="9" mana="20" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/magic rope.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Levitate" words="exani hur" lvl="12" mana="50" prem="1" aggressive="0" exhaustion="1000" params="1" needlearn="0" event="function" value="Levitate">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Great Light" words="utevo gran lux" lvl="13" mana="60" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/great light.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Magic Shield" words="utamo vita" lvl="14" mana="50" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/magic shield.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Haste" words="utani hur" lvl="14" mana="60" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/haste.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Charge" words="utani tempo hur" lvl="25" mana="100" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/charge.lua">
+		<vocation id="4"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Swift Foot" words="utamo tempo san" lvl="55" mana="400" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/swift foot.lua">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Challenge" words="exeta res" lvl="20" mana="30" prem="1" aggressive="0" exhaustion="1000" needlearn="0" event="script" value="support/challenge.lua">
+		<vocation id="8"/>
+	</instant>
+	<instant name="Strong Haste" words="utani gran hur" lvl="20" mana="100" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/strong haste.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Creature Illusion" words="utevo res ina" lvl="23" mana="100" aggressive="0" params="1" exhaustion="1000" needlearn="0" event="function" value="Illusion">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Ultimate Light" words="utevo vis lux" lvl="26" mana="140" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/ultimate light.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Cancel Invisibility" words="exana ina" lvl="26" mana="200" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/cancel invisibility.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</instant>
+	<instant name="Invisibility" words="utana vid" lvl="35" mana="440" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/invisible.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Sharpshooter" words="utito tempo san" lvl="60" mana="450" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/sharpshooter.lua">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Protector" words="utamo tempo" lvl="55" mana="200" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/protector.lua">
+		<vocation id="4"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Blood Rage" words="utito tempo" lvl="60" mana="290" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/blood rage.lua">
+		<vocation id="4"/>
+		<vocation id="8"/>
+	</instant>
+
+	<!-- Party Spells -->
+	<instant name="Train Party" words="utito mas sio" lvl="32" mana="60" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="party/train.lua">
+		<vocation id="8"/>
+	</instant>
+	<instant name="Protect Party" words="utamo mas sio" lvl="32" mana="90" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="party/protect.lua">
+		<vocation id="7"/>
+	</instant>
+	<instant name="Heal Party" words="utura mas sio" lvl="32" mana="120" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="party/heal.lua">
+		<vocation id="6"/>
+	</instant>
+	<instant name="Enchant Party" words="utori mas sio" lvl="32" mana="120" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="party/enchant.lua">
+		<vocation id="5"/>
+	</instant>
+
+	<!-- Summon Spells -->
+	<instant name="Summon Creature" words="utevo res" lvl="25" params="1" exhaustion="2000" needlearn="0" event="function" value="summonMonster">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Undead Legion" words="exana mas mort" lvl="30" mana="500" prem="1" exhaustion="2000" needlearn="0" event="script" value="summon/undead legion.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+
+	<!-- Conjure Spells -->
+	<conjure name="Conjure Arrow" words="exevo con" lvl="13" mana="100" soul="1" conjureId="2544" conjureCount="10" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Food" words="exevo pan" lvl="14" mana="120" soul="1" exhaustion="1000" needlearn="0" event="function" value="conjureFood">
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Poisoned Arrow" words="exevo con pox" lvl="16" mana="130" soul="2" conjureId="2545" conjureCount="7" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Conjure Bolt" words="exevo con mort" lvl="17" mana="140" soul="2" prem="1" conjureId="2543" conjureCount="5" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Conjure Sniper Arrow" words="exevo con hur" lvl="24" mana="160" soul="3" prem="1" conjureId="7364" conjureCount="5" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Explosive Arrow" words="exevo con flam" lvl="25" mana="290" soul="3" conjureId="2546" conjureCount="8" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Conjure Piercing Bolt" words="exevo con grav" lvl="33" mana="180" soul="3" prem="1" conjureId="7363" conjureCount="5" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Enchant Staff" words="exeta vis" lvl="41" mana="80" prem="1" conjureId="2433" reagentId="2401" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
+		<vocation id="5"/>
+	</conjure>
+	<conjure name="Enchant Spear" words="exeta con" lvl="45" mana="350" soul="3" prem="1" conjureId="7367" reagentId="2389" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Power Bolt" words="exevo con vis" lvl="59" mana="800" soul="4" prem="1" conjureId="2547" conjureCount="10" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Conjure Assassin" words="exevo con san" lvl="80" mana="500" soul="0" conjureId="7368" conjureCount="15" exhaustion="1000" needlearn="0" function="conjureItem">
+		<vocation name="Royal Paladin"/>
+	</conjure>	<conjure name="Conjure Blank" words="adori blank" lvl="20" mana="200" soul="0" conjureId="2260" conjureCount="1" exhaustion="2000" needlearn="0" function="conjureItem">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+
+	</conjure>	<conjure name="Poison Field" words="adevo grav pox" lvl="14" mana="200" soul="1" reagentId="2260" conjureId="2285" conjureCount="3" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Light Magic Missile" words="adori min vis" lvl="15" mana="120" soul="1" reagentId="2260" conjureId="2287" conjureCount="10" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Fire Field" words="adevo grav flam" lvl="15" mana="240" soul="1" reagentId="2260" conjureId="2301" conjureCount="3" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Fireball" words="adori flam" lvl="27" mana="460" soul="3" prem="1" reagentId="2260" conjureId="2302" conjureCount="5" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</conjure>
+	<conjure name="Energy Field" words="adevo grav vis" lvl="18" mana="320" soul="2" reagentId="2260" conjureId="2277" conjureCount="3" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Stalagmite" words="adori tera" lvl="24" mana="400" soul="2" prem="2" reagentId="2260" conjureId="2292" conjureCount="10" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Great Fireball" words="adori mas flam" lvl="30" mana="530" soul="3" reagentId="2260" conjureId="2304" conjureCount="4" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</conjure>
+	<conjure name="Heavy Magic Missile" words="adori vis" lvl="25" mana="350" soul="2" reagentId="2260" conjureId="2311" conjureCount="10" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Poison Bomb" words="adevo mas pox" lvl="25" mana="520" soul="2" prem="1" reagentId="2260" conjureId="2286" conjureCount="2" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Firebomb" words="adevo mas flam" lvl="27" mana="600" soul="4" reagentId="2260" conjureId="2305" conjureCount="2" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Soulfire" words="adevo res flam" lvl="27" mana="600" soul="3" prem="1" reagentId="2260" conjureId="2308" conjureCount="3" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Poison Wall" words="adevo mas grav pox" lvl="29" mana="640" soul="3" reagentId="2260" conjureId="2289" conjureCount="4" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Explosion" words="adevo mas hur" lvl="31" mana="570" soul="4" reagentId="2260" conjureId="2313" conjureCount="6" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Fire Wall" words="adevo mas grav flam" lvl="33" mana="780" soul="4" reagentId="2260" conjureId="2303" conjureCount="4" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Energybomb" words="adevo mas vis" lvl="37" mana="880" soul="5" prem="1" reagentId="2260" conjureId="2262" conjureCount="2" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</conjure>
+	<conjure name="Energy Wall" words="adevo mas grav vis" lvl="41" mana="1000" soul="5" reagentId="2260" conjureId="2279" conjureCount="4" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Sudden Death" words="adori gran mort" lvl="45" mana="985" soul="5" reagentId="2260" conjureId="2268" conjureCount="3" exhaustion="700" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</conjure>
+	<conjure name="Antidote Rune" words="adana pox" lvl="15" mana="200" soul="1" reagentId="2260" conjureId="2266" conjureCount="1" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Intense Healing Rune" words="adura gran" lvl="15" mana="240" soul="2" reagentId="2260" conjureId="2265" conjureCount="1" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Ultimate Healing Rune" words="adura vita" lvl="24" mana="400" soul="3" reagentId="2260" conjureId="2273" conjureCount="1" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Convince Creature" words="adeta sio" lvl="16" mana="200" soul="3" reagentId="2260" conjureId="2290" conjureCount="1" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Animate Dead" words="adana mort" lvl="27" mana="600" soul="5" prem="1" reagentId="2260" conjureId="2316" conjureCount="1" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Chameleon" words="adevo ina" lvl="27" mana="600" soul="2" reagentId="2260" conjureId="2291" conjureCount="1" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Destroy Field" words="adito grav" lvl="17" mana="120" soul="2" reagentId="2260" conjureId="2261" conjureCount="3" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Desintegrate" words="adito tera" lvl="21" mana="200" soul="3" prem="1" reagentId="2260" conjureId="2310" conjureCount="3" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+	</conjure>
+	<conjure name="Magic Wall" words="adevo grav tera" lvl="32" mana="750" soul="5" prem="1" reagentId="2260" conjureId="2293" conjureCount="3" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</conjure>
+	<conjure name="Wild Growth" words="adevo grav vita" lvl="27" mana="600" soul="5" prem="1" reagentId="2260" conjureId="2269" conjureCount="2" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Paralyze" words="adana ani" lvl="54" mana="1400" soul="3" prem="1" reagentId="2260" conjureId="2278" conjureCount="1" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Icicle" words="adori frigo" lvl="28" mana="460" soul="3" prem="1" reagentId="2260" conjureId="2271" conjureCount="5" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Avalanche" words="adori mas frigo" lvl="30" mana="530" soul="3" reagentId="2260" conjureId="2274" conjureCount="4" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Stone Shower" words="adori mas tera" lvl="28" mana="430" soul="3" prem="1" reagentId="2260" conjureId="2288" conjureCount="4" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</conjure>
+	<conjure name="Thunderstorm" words="adori mas vis" lvl="28" mana="430" soul="3" prem="1" reagentId="2260" conjureId="2315" conjureCount="4" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</conjure>
+	<conjure name="Holy Missile" words="adori san" lvl="27" mana="350" soul="3" prem="1" reagentId="2260" conjureId="2295" conjureCount="5" exhaustion="1000" needlearn="0" event="function" value="conjureRune">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</conjure>
+
+
+<!-- Spells Pokemon-->
+
+	<instant name="Quick Attack" words="spell000" lvl="1000" mana="0" event="script" value="ps/Quick Attack.lua"></instant>
+	<instant name="Razor Leaf" words="spell001" lvl="10" mana="0" event="script" value="ps/Razor Leaf.lua"></instant>
+	<instant name="Vine Whip" words="spell002" lvl="1000" mana="0" event="script" value="ps/Vine Whip.lua"></instant>
+	<instant name="Headbutt" words="spell003" lvl="1000" mana="0" event="script" value="ps/Headbutt.lua"></instant>
+	<instant name="Leech Seed" words="spell004" lvl="1000" mana="0" event="script" value="ps/Leech Seed.lua"></instant>
+	<instant name="Solar Beam" words="spell005" lvl="1000" mana="0" event="script" value="ps/Solar Beam.lua"></instant>
+	<instant name="Sleep Powder" words="spell006" lvl="1000" mana="0" event="script" value="ps/Sleep Powder.lua"></instant>
+	<instant name="Stun Spore" words="spell007" lvl="1000" mana="0" event="script" value="ps/Stun Spore.lua"></instant>
+	<instant name="Poison Powder" words="spell008" lvl="1000" mana="0" event="script" value="ps/Poison Powder.lua"></instant>
+	<instant name="Bullet Seed" words="spell009" lvl="1000" mana="0" event="script" value="ps/Bullet Seed.lua"></instant>
+	<instant name="Body Slam" words="spell010" lvl="1000" mana="0" event="script" value="ps/Body Slam.lua"></instant>
+	<instant name="Leaf Storm" words="spell011" lvl="1000" mana="0" event="script" value="ps/Leaf Storm.lua"></instant>
+	<instant name="Scratch" words="spell012" lvl="1000" mana="0" event="script" value="ps/Scratch.lua"></instant>
+	<instant name="Ember" words="spell013" lvl="1000" mana="0" event="script" value="ps/Ember.lua"></instant>
+	<instant name="Flamethrower" words="spell014" lvl="1000" mana="0" event="script" value="ps/Flamethrower.lua"></instant>
+	<instant name="Fireball" words="spell015" lvl="1000" mana="0" event="script" value="ps/Fireball.lua"></instant>
+	<instant name="Fire Fang" words="spell016" lvl="1000" mana="0" event="script" value="ps/Fire Fang.lua"></instant>
+	<instant name="Fire Blast" words="spell017" lvl="1000" mana="0" event="script" value="ps/Fire Blast.lua"></instant>
+	<instant name="Rage" words="spell018" lvl="1000" mana="0" event="script" value="ps/Rage.lua"></instant>
+	<instant name="Raging Blast" words="spell019" lvl="1000" mana="0" event="script" value="ps/Raging Blast.lua"></instant>
+	<instant name="Dragon Claw" words="spell020" lvl="1000" mana="0" event="script" value="ps/Dragon Claw.lua"></instant>
+	<instant name="Wing Attack" words="spell021" lvl="1000" mana="0" event="script" value="ps/Wing Attack.lua"></instant>
+	<instant name="Magma Storm" words="spell022" lvl="1000" mana="0" event="script" value="ps/Magma Storm.lua"></instant>
+	<instant name="Bubbles" words="spell023" lvl="1000" mana="0" event="script" value="ps/Bubbles.lua"></instant>
+	<instant name="Water Gun" words="spell024" lvl="1000" mana="0" event="script" value="ps/Water Gun.lua"></instant>
+	<instant name="Waterball" words="spell025" lvl="1000" mana="0" event="script" value="ps/Waterball.lua"></instant>
+	<instant name="Aqua Tail" words="spell026" lvl="1000" mana="0" event="script" value="ps/Aqua Tail.lua"></instant>
+	<instant name="Hydro Cannon" words="spell027" lvl="1000" mana="0" event="script" value="ps/Hydro Cannon.lua"></instant>
+	<instant name="Harden" words="spell028" lvl="1000" mana="0" event="script" value="ps/Harden.lua"></instant>
+	<instant name="Calm Mind" words="spell029" lvl="1000" mana="0" event="script" value="ps/Calm Mind.lua"></instant>
+	<instant name="Bubble Blast" words="spell030" lvl="1000" mana="0" event="script" value="ps/Bubble Blast.lua"></instant>
+	<instant name="Skull Bash" words="spell0031" lvl="1000" mana="0" event="script" value="ps/Skull Bash.lua"></instant>
+	<instant name="Hydropump" words="spell0032" lvl="1000" mana="0" event="script" value="ps/Hydropump.lua"></instant>
+	<instant name="String Shot" words="spell033" lvl="1000" mana="0" event="script" value="ps/String Shot.lua"></instant>
+	<instant name="Bug Bite" words="spell034" lvl="1000" mana="0" event="script" value="ps/Bug Bite.lua"></instant>
+	<instant name="Super Sonic" words="spell035" lvl="1000" mana="0" event="script" value="ps/Super Sonic.lua"></instant>
+	<instant name="Psybeam" words="spell036" lvl="1000" mana="0" event="script" value="ps/Psybeam.lua"></instant>
+	<instant name="Confusion" words="spell037" lvl="1000" mana="0" event="script" value="ps/Confusion.lua"></instant>
+	<instant name="Horn Attack" words="spell038" lvl="1000" mana="0" event="script" value="ps/Horn Attack.lua"></instant>
+	<instant name="Poison Sting" words="spell039" lvl="1000" mana="0" event="script" value="ps/Poison Sting.lua"></instant>
+	<instant name="Fury Cutter" words="spell040" lvl="1000" mana="0" event="script" value="ps/Fury Cutter.lua"></instant>
+	<instant name="Pin Missile" words="spell041" lvl="1000" mana="0" event="script" value="ps/Pin Missile.lua"></instant>
+	<instant name="Strafe" words="spell042" lvl="1000" mana="0" event="script" value="ps/Strafe.lua"></instant>
+	<instant name="Agility" words="spell043" lvl="1000" mana="0" event="script" value="ps/Agility.lua"></instant>
+	<instant name="Sand Attack" words="spell044" lvl="1000" mana="0" event="script" value="ps/Sand Attack.lua"></instant>
+	<instant name="Gust" words="spell045" lvl="1000" mana="0" event="script" value="ps/Gust.lua"></instant>
+	<instant name="Whirlwind" words="spell046" lvl="1000" mana="0" event="script" value="ps/Whirlwind.lua"></instant>
+	<instant name="Drill Peck" words="spell047" lvl="1000" mana="0" event="script" value="ps/Drill Peck.lua"></instant>
+	<instant name="Tornado" words="spell048" lvl="1000" mana="0" event="script" value="ps/Tornado.lua"></instant>
+	<instant name="Bite" words="spell049" lvl="1000" mana="0" event="script" value="ps/Bite.lua"></instant>
+	<instant name="Super Fang" words="spell050" lvl="1000" mana="0" event="script" value="ps/Super Fang.lua"></instant>
+	<instant name="Poison Fang" words="spell051" lvl="1000" mana="0" event="script" value="ps/Poison Fang.lua"></instant>
+	<instant name="Sting Gun" words="spell052" lvl="1000" mana="0" event="script" value="ps/Sting Gun.lua"></instant>
+	<instant name="Acid" words="spell053" lvl="1000" mana="0" event="script" value="ps/Acid.lua"></instant>
+	<instant name="Fear" words="spell054" lvl="1000" mana="0" event="script" value="ps/Fear.lua"></instant>
+	<instant name="Roar" words="spell055" lvl="1000" mana="0" event="script" value="ps/Roar.lua"></instant>
+	<instant name="Iron Tail" words="spell056" lvl="1000" mana="0" event="script" value="ps/Iron Tail.lua"></instant>
+	<instant name="Thunder Shock" words="spell057" lvl="1000" mana="0" event="script" value="ps/Thunder Shock.lua"></instant>
+	<instant name="Thunder Bolt" words="spell058" lvl="1000" mana="0" event="script" value="ps/Thunder Bolt.lua"></instant>
+	<instant name="Thunder Wave" words="spell059" lvl="1000" mana="0" event="script" value="ps/Thunder Wave.lua"></instant>
+	<instant name="Thunder" words="spell060" lvl="1000" mana="0" event="script" value="ps/Thunder.lua"></instant>
+	<instant name="Mega Kick" words="spell061" lvl="1000" mana="0" event="script" value="ps/Mega Kick.lua"></instant>
+	<instant name="Thunder Punch" words="spell062" lvl="1000" mana="0" event="script" value="ps/Thunder Punch.lua"></instant>
+	<instant name="Electric Storm" words="spell063" lvl="1000" mana="0" event="script" value="ps/Electric Storm.lua"></instant>
+	<instant name="Mud Shot" words="spell064" lvl="1000" mana="0" event="script" value="ps/Mud Shot.lua"></instant>
+	<instant name="Mud Slap" words="spell065" lvl="1000" mana="0" event="script" value="ps/Mud Slap.lua"></instant>
+	<instant name="Rollout" words="spell066" lvl="1000" mana="0" event="script" value="ps/Rollout.lua"></instant>
+	<instant name="Shockwave" words="spell067" lvl="1000" mana="0" event="script" value="ps/Shockwave.lua"></instant>
+	<instant name="Earthshock" words="spell068" lvl="1000" mana="0" event="script" value="ps/Earthshock.lua"></instant>
+	<instant name="Earthquake" words="spell069" lvl="1000" mana="0" event="script" value="ps/Earthquake.lua"></instant>
+	<instant name="Stomp" words="spell070" lvl="1000" mana="0" event="script" value="ps/Stomp.lua"></instant>
+	<instant name="Toxic Spikes" words="spell071" lvl="1000" mana="0" event="script" value="ps/Toxic Spikes.lua"></instant>
+	<instant name="Horn Drill" words="spell072" lvl="1000" mana="0" event="script" value="ps/Horn Drill.lua"></instant>
+	<instant name="Doubleslap" words="spell073" lvl="1000" mana="0" event="script" value="ps/Doubleslap.lua"></instant>
+	<instant name="Lovely Kiss" words="spell074" lvl="1000" mana="0" event="script" value="ps/Lovely Kiss.lua"></instant>
+	<instant name="Sing" words="spell075" lvl="1000" mana="0" event="script" value="ps/Sing.lua"></instant>
+	<instant name="Selfheal" words="spell076" lvl="1000" mana="0" event="script" value="ps/Selfheal.lua"></instant>
+	<instant name="Restore" words="spell077" lvl="1000" mana="0" event="script" value="ps/Restore.lua"></instant>
+	<instant name="Multislap" words="spell078" lvl="1000" mana="0" event="script" value="ps/Multislap.lua"></instant>
+	<instant name="Metronome" words="spell079" lvl="1000" mana="0" event="script" value="ps/Metronome.lua"></instant>
+	<instant name="Focus" words="spell080" lvl="1000" mana="0" event="script" value="ps/Focus.lua"></instant>
+	<instant name="Flame Wheel" words="spell081" lvl="1000" mana="0" event="script" value="ps/Flame Wheel.lua"></instant>
+	<instant name="Hyper Voice" words="spell082" lvl="1000" mana="0" event="script" value="ps/Hyper Voice.lua"></instant>
+	<instant name="Healarea" words="spell083" lvl="1000" mana="0" event="script" value="ps/Healarea.lua"></instant>
+	<instant name="Toxic" words="spell084" lvl="1000" mana="0" event="script" value="ps/Toxic.lua"></instant>
+	<instant name="Absorb" words="spell085" lvl="1000" mana="0" event="script" value="ps/Absorb.lua"></instant>
+	<instant name="Poison Bomb" words="spell086" lvl="1000" mana="0" event="script" value="ps/Poison Bomb.lua"></instant>
+	<instant name="Poison Gas" words="spell087" lvl="1000" mana="0" event="script" value="ps/Poison Gas.lua"></instant>
+	<instant name="Petal Dance" words="spell088" lvl="1000" mana="0" event="script" value="ps/Petal Dance.lua"></instant>
+	<instant name="Slash" words="spell089" lvl="1000" mana="0" event="script" value="ps/Slash.lua"></instant>
+	<instant name="X-Scissor" words="spell090" lvl="1000" mana="0" event="script" value="ps/X-Scissor.lua"></instant>
+	<instant name="Psychic" words="spell091" lvl="1000" mana="0" event="script" value="ps/Psychic.lua"></instant>
+	<instant name="Pay Day" words="spell092" lvl="1000" mana="0" event="script" value="ps/Pay Day.lua"></instant>
+	<instant name="Psywave" words="spell093" lvl="1000" mana="0" event="script" value="ps/Psywave.lua"></instant>
+	<instant name="Triple Kick" words="spell094" lvl="1000" mana="0" event="script" value="ps/Triple Kick.lua"></instant>
+	<instant name="Triple Kick Lee" words="spell095" lvl="1000" mana="0" event="script" value="ps/Triple Kick Lee.lua"></instant>
+	<instant name="Karate Chop" words="spell096" lvl="1000" mana="0" event="script" value="ps/Karate Chop.lua"></instant>
+	<instant name="Cross Chop" words="spell097" lvl="1000" mana="0" event="script" value="ps/Cross Chop.lua"></instant>
+	<instant name="Mega Punch" words="spell098" lvl="1000" mana="0" event="script" value="ps/Mega Punch.lua"></instant>
+	<instant name="Tri Flames" words="spell099" lvl="1000" mana="0" event="script" value="ps/Tri Flames.lua"></instant>
+	<instant name="War Dog" words="spell100" lvl="1000" mana="0" event="script" value="ps/War Dog.lua"></instant>
+	<instant name="Hypnosis" words="spell101" lvl="1000" mana="0" event="script" value="ps/Hypnosis.lua"></instant>
+	<instant name="Dizzy Punch" words="spell102" lvl="1000" mana="0" event="script" value="ps/Dizzy Punch.lua"></instant>
+	<instant name="Ice Punch" words="spell103" lvl="1000" mana="0" event="script" value="ps/Ice Punch.lua"></instant>
+	<instant name="Ice Beam" words="spell104" lvl="1000" mana="0" event="script" value="ps/Ice Beam.lua"></instant>
+	<instant name="Psy Pulse" words="spell105" lvl="1000" mana="0" event="script" value="ps/Psy Pulse.lua"></instant>
+	<instant name="Reflect" words="spell106" lvl="1000" mana="0" event="script" value="ps/Reflect.lua"></instant>
+	<instant name="Psyusion" words="spell107" lvl="1000" mana="0" event="script" value="ps/Psyusion.lua"></instant>
+	<instant name="Triple Punch" words="spell108" lvl="1000" mana="0" event="script" value="ps/Triple Punch.lua"></instant>
+	<instant name="Fist Machine" words="spell109" lvl="1000" mana="0" event="script" value="ps/Fist Machine.lua"></instant>
+	<instant name="Destroyer Hand" words="spell110" lvl="1000" mana="0" event="script" value="ps/Destroyer Hand.lua"></instant>
+	<instant name="Rock Throw" words="spell111" lvl="1000" mana="0" event="script" value="ps/Rock Throw.lua"></instant>
+	<instant name="Rock Slide" words="spell112" lvl="1000" mana="0" event="script" value="ps/Rock Slide.lua"></instant>
+	<instant name="Falling Rocks" words="spell113" lvl="1000" mana="0" event="script" value="ps/Falling Rocks.lua"></instant>
+	<instant name="Selfdestruct" words="spell114" lvl="1000" mana="0" event="script" value="ps/Selfdestruct.lua"></instant>
+	<instant name="Crusher Stomp" words="spell115" lvl="1000" mana="0" event="script" value="ps/Crusher Stomp.lua"></instant>
+	<instant name="Water Pulse" words="spell116" lvl="1000" mana="0" event="script" value="ps/Water Pulse.lua"></instant>
+	<instant name="Sonicboom" words="spell117" lvl="1000" mana="0" event="script" value="ps/Sonicboom.lua"></instant>
+	<instant name="Stickmerang" words="spell118" lvl="1000" mana="0" event="script" value="ps/Stickmerang.lua"></instant>
+	<instant name="Stickslash" words="spell119" lvl="1000" mana="0" event="script" value="ps/Stickslash.lua"></instant>
+	<instant name="Pluck" words="spell120" lvl="1000" mana="0" event="script" value="ps/Pluck.lua"></instant>
+	<instant name="Tri-Attack" words="spell121" lvl="1000" mana="0" event="script" value="ps/Tri-Attack.lua"></instant>
+	<instant name="Ice Shards" words="spell122" lvl="1000" mana="0" event="script" value="ps/Ice Shards.lua"></instant>
+	<instant name="Icy Wind" words="spell123" lvl="1000" mana="0" event="script" value="ps/Icy Wind.lua"></instant>
+	<instant name="Aurora Beam" words="spell124" lvl="1000" mana="0" event="script" value="ps/Aurora Beam.lua"></instant>
+	<instant name="Rest" words="spell125" lvl="1000" mana="0" event="script" value="ps/Rest.lua"></instant>
+	<instant name="Sludge" words="spell126" lvl="1000" mana="0" event="script" value="ps/Sludge.lua"></instant>
+	<instant name="Sludge Rain" words="spell127" lvl="1000" mana="0" event="script" value="ps/Sludge Rain.lua"></instant>
+	<instant name="Mud Bomb" words="spell128" lvl="1000" mana="0" event="script" value="ps/Mud Bomb.lua"></instant>
+	<instant name="Mortal Gas" words="spell129" lvl="1000" mana="0" event="script" value="ps/Mortal Gas.lua"></instant>
+	<instant name="Egg Bomb" words="spell131" lvl="1000" mana="0" event="script" value="ps/Egg Bomb.lua"></instant>
+	<instant name="Super Vines" words="spell132" lvl="1000" mana="0" event="script" value="ps/Super Vines.lua"></instant>
+	<instant name="Epicenter" words="spell133" lvl="1000" mana="0" event="script" value="ps/Epicenter.lua"></instant>
+	<instant name="Bubblebeam" words="spell134" lvl="1000" mana="0" event="script" value="ps/Bubblebeam.lua"></instant>
+	<instant name="Mimic Wall" words="spell135" lvl="1000" mana="0" event="script" value="ps/Mimic Wall.lua"></instant>
+	<instant name="Swift" words="spell136" lvl="1000" mana="0" event="script" value="ps/Swift.lua"></instant>
+	<instant name="Shredder Team" words="spell137" lvl="1000" mana="0" event="script" value="ps/Shredder Team.lua"></instant>
+	<instant name="Team Slice" words="spell138" lvl="1000" mana="0" event="script" value="ps/Team Slice.lua"></instant>
+	<instant name="Blizzard" words="spell139" lvl="1000" mana="0" event="script" value="ps/Blizzard.lua"></instant>
+	<instant name="Great Love" words="spell140" lvl="1000" mana="0" event="script" value="ps/Great Love.lua"></instant>
+	<instant name="Fire Punch" words="spell141" lvl="1000" mana="0" event="script" value="ps/Fire Punch.lua"></instant>
+	<instant name="Guillotine" words="spell142" lvl="1000" mana="0" event="script" value="ps/Guillotine.lua"></instant>
+	<instant name="Hyper Beam" words="spell143" lvl="1000" mana="0" event="script" value="ps/Hyper Beam.lua"></instant>
+	<instant name="Thrash" words="spell144" lvl="1000" mana="0" event="script" value="ps/Thrash.lua"></instant>
+	<instant name="Splash" words="spell145" lvl="1000" mana="0" event="script" value="ps/Splash.lua"></instant>
+	<instant name="Dragon Breath" words="spell146" lvl="1000" mana="0" event="script" value="ps/Dragon Breath.lua"></instant>
+	<instant name="Muddy Water" words="spell147" lvl="1000" mana="0" event="script" value="ps/Muddy Water.lua"></instant>
+	<instant name="Venom Motion" words="spell148" lvl="1000" mana="0" event="script" value="ps/Venom Motion.lua"></instant>
+	<instant name="Thunder Fang" words="spell149" lvl="1000" mana="0" event="script" value="ps/Thunder Fang.lua"></instant>
+	<instant name="Sacred Fire" words="spell150" lvl="1000" mana="0" event="script" value="ps/Sacred Fire.lua"></instant>
+	<instant name="Blaze Kick" words="spell160" lvl="1000" mana="0" event="script" value="ps/Blaze Kick.lua"></instant>
+	<instant name="Overheat" words="spell161" lvl="1000" mana="0" event="script" value="ps/Overheat.lua"></instant>
+	<instant name="Cyber Pulse" words="spell162" lvl="1000" mana="0" event="script" value="ps/Cyber Pulse.lua"></instant>
+	<instant name="Zap Cannon" words="spell163" lvl="1000" mana="0" event="script" value="ps/Zap Cannon.lua"></instant>
+	<instant name="Magic Coat" words="spell164" lvl="1000" mana="0" event="script" value="ps/Magic Coat.lua"></instant>
+	<instant name="Ancient Power" words="spell165" lvl="1000" mana="0" event="script" value="ps/Ancient Power.lua"></instant>
+	<instant name="Twister" words="spell166" lvl="1000" mana="0" event="script" value="ps/Twister.lua"></instant>
+	<instant name="Multi-Kick" words="spell167" lvl="1000" mana="0" event="script" value="ps/Multi-Kick.lua"></instant>
+	<instant name="Multi-Punch" words="spell168" lvl="1000" mana="0" event="script" value="ps/Multi-Punch.lua"></instant>
+	<instant name="Squisky Licking" words="spell169" lvl="1000" mana="0" event="script" value="ps/Squisky Licking.lua"></instant>
+	<instant name="Lick" words="spell170" lvl="10000" mana="0" event="script" value="ps/Lick.lua"></instant>
+	<instant name="Bonemerang" words="spell171" lvl="1000" mana="0" event="script" value="ps/Bonemerang.lua"></instant>
+	<instant name="Bone Club" words="spell172" lvl="1000" mana="0" event="script" value="ps/Bone Club.lua"></instant>
+	<instant name="Bone Slash" words="spell173" lvl="1000" mana="0" event="script" value="ps/Bone Slash.lua"></instant>
+	<instant name="Furious Legs" words="spell174" lvl="1000" mana="0" event="script" value="ps/Furious Legs.lua"></instant>
+	<instant name="Ultimate Champion" words="spell175" lvl="10" mana="0" event="script" value="ps/Ultimate Champion.lua"></instant>
+	<instant name="Shadow Ball" words="spell176" lvl="1000" mana="0" event="script" value="ps/Shadow Ball.lua"></instant>
+	<instant name="Shadow Punch" words="spell177" lvl="1000" mana="0" event="script" value="ps/Shadow Punch.lua"></instant>
+	<instant name="Shadow Storm" words="spell178" lvl="1000" mana="0" event="script" value="ps/Shadow Storm.lua"></instant>
+	<instant name="InvisibleGhost" words="spell179" lvl="1000" mana="0" event="script" value="ps/InvisibleGhost.lua"></instant>
+	<instant name="Nightmare" words="spell180" lvl="1000" mana="0" event="script" value="ps/Nightmare.lua"></instant>
+	<instant name="Night Shade" words="spell181" lvl="1000" mana="0" event="script" value="ps/Night Shade.lua"></instant>
+	<instant name="Dream Eater" words="spell182" lvl="1000" mana="0" event="script" value="ps/Dream Eater.lua"></instant>
+	<instant name="Dark Eye" words="spell183" lvl="1000" mana="0" event="script" value="ps/Dark Eye.lua"></instant>
+	<instant name="Crabhammer" words="spell184" lvl="1000" mana="0" event="script" value="ps/Crabhammer.lua"></instant>
+	<instant name="Ancient Fury" words="spell185" lvl="1000" mana="0" event="script" value="ps/Ancient Fury.lua"></instant>
+	<instant name="Divine Punishment" words="spell186" lvl="1000" mana="0" event="script" value="ps/Divine Punishment.lua"></instant>
+	<instant name="Ground Chop" words="spell187" lvl="1000" mana="0" event="script" value="ps/Ground Chop.lua"></instant>
+	<instant name="Stick Throw" words="spell188" lvl="1000" mana="0" event="script" value="ps/Stick Throw.lua"></instant>
+	<instant name="Clamp" words="spell189" lvl="1000" mana="0" event="script" value="ps/Clamp.lua"></instant>
+	<instant name="Spark" words="spell190" lvl="1000" mana="0" event="script" value="ps/Spark.lua"></instant>
+	<instant name="Charge Beam" words="spell191" lvl="1000" mana="0" event="script" value="ps/Charge Beam.lua"></instant>
+	<instant name="Fury Attack" words="spell192" lvl="1000" mana="0" event="script" value="ps/Fury Attack.lua"></instant>
+
+    <instant name="Acid Armor" words="spell193" lvl="1000" mana="0" event="script" value="ps/Acid Armor.lua"></instant>
+	<instant name="Air Cutter" words="spell194" lvl="1000" mana="0" event="script" value="ps/Air Cutter.lua"></instant>
+	<instant name="Air Slash" words="spell195" lvl="1000" mana="0" event="script" value="ps/Air Slash.lua"></instant>
+	<instant name="Aromateraphy" words="spell196" lvl="1000" mana="0" event="script" value="ps/Aromateraphy.lua"></instant>
+	<instant name="Assurance" words="spell197" lvl="1000" mana="0" event="script" value="ps/Assurance.lua"></instant>
+	<instant name="Bug Fighter" words="spell198" lvl="1000" mana="0" event="script" value="ps/Bug Fighter.lua"></instant>
+	<instant name="Camuflage" words="spell199" lvl="1000" mana="0" event="script" value="ps/Camuflage.lua"></instant>
+	<instant name="Charge" words="spell200" lvl="1000" mana="0" event="script" value="ps/Charge.lua"></instant>
+	<instant name="Charm" words="spell201" lvl="1000" mana="0" event="script" value="ps/Charm.lua"></instant>
+	<instant name="Confuse Ray" words="spell202" lvl="1000" mana="0" event="script" value="ps/Confuse Ray.lua"></instant>
+	<instant name="Cotton Spore" words="spell203" lvl="1000" mana="0" event="script" value="ps/Cotton Spore.lua"></instant>
+	<instant name="Crunch" words="spell204" lvl="1000" mana="0" event="script" value="ps/Crunch.lua"></instant>
+	<instant name="Defense Curl" words="spell205" lvl="1000" mana="0" event="script" value="ps/Defense Curl.lua"></instant>
+	<instant name="Double Team" words="spell206" lvl="1000" mana="0" event="script" value="ps/Double Team.lua"></instant>
+	<instant name="Draco Meteor" words="spell207" lvl="1000" mana="0" event="script" value="ps/Draco Meteor.lua"></instant>
+	<instant name="Dragon Pulse" words="spell208" lvl="1000" mana="0" event="script" value="ps/Dragon Pulse.lua"></instant>
+	<instant name="Egg Rain" words="spell209" lvl="1000" mana="0" event="script" value="ps/Egg Rain.lua"></instant>
+	<instant name="Elecball" words="spell210" lvl="1000" mana="0" event="script" value="ps/Elecball.lua"></instant>
+	<instant name="Emergency Call" words="spell211" lvl="1000" mana="0" event="script" value="ps/Emergency Call.lua"></instant>
+	<instant name="Eruption" words="spell212" lvl="1000" mana="0" event="script" value="ps/Eruption.lua"></instant>
+	<instant name="ExtremeSpeed" words="spell213" lvl="1000" mana="0" event="script" value="ps/ExtremeSpeed.lua"></instant>
+	<instant name="Faint Attack" words="spell214" lvl="1000" mana="0" event="script" value="ps/Faint Attack.lua"></instant>
+	<instant name="Feather Dance" words="spell215" lvl="1000" mana="0" event="script" value="ps/Feather Dance.lua"></instant>
+	<instant name="Fighter Spirit" words="spell216" lvl="1000" mana="0" event="script" value="ps/Fighter Spirit.lua"></instant>
+	<instant name="Future Sight" words="spell217" lvl="1000" mana="0" event="script" value="ps/Future Sight.lua"></instant>
+	<instant name="Giga Drain" words="spell218" lvl="1000" mana="0" event="script" value="ps/Giga Drain.lua"></instant>
+	<instant name="Hurricane" words="spell219" lvl="1000" mana="0" event="script" value="ps/Hurricane.lua"></instant>
+	<instant name="Ice Fang" words="spell220" lvl="1000" mana="0" event="script" value="ps/Ice Fang.lua"></instant>
+	<instant name="Iron Defense" words="spell221" lvl="1000" mana="0" event="script" value="ps/Iron Defense.lua"></instant>
+	<instant name="Leaf Blade" words="spell222" lvl="1000" mana="0" event="script" value="ps/Leaf Blade.lua"></instant>
+	<instant name="Magical Leaf" words="spell223" lvl="1000" mana="0" event="script" value="ps/Magical Leaf.lua"></instant>
+	<instant name="Megahorn" words="spell224" lvl="1000" mana="0" event="script" value="ps/Megahorn.lua"></instant>
+	<instant name="Metal Claw" words="spell225" lvl="1000" mana="0" event="script" value="ps/Metal Claw.lua"></instant>
+	<instant name="Meteor Smash" words="spell226" lvl="1000" mana="0" event="script" value="ps/Meteor Smash.lua"></instant>
+	<instant name="Minimize" words="spell227" lvl="1000" mana="0" event="script" value="ps/Minimize.lua"></instant>
+	<instant name="Miracle Eye" words="spell228" lvl="1000" mana="0" event="script" value="ps/Miracle Eye.lua"></instant>
+	<instant name="Night Daze" words="spell229" lvl="1000" mana="0" event="script" value="ps/Night Daze.lua"></instant>
+	<instant name="Octazooka" words="spell230" lvl="1000" mana="0" event="script" value="ps/Octazooka.lua"></instant>
+	<instant name="Peck" words="spell231" lvl="1000" mana="0" event="script" value="ps/Peck.lua"></instant>
+	<instant name="Power Gem" words="spell232" lvl="1000" mana="0" event="script" value="ps/Power Gem.lua"></instant>
+	<instant name="Psy Ball" words="spell233" lvl="1000" mana="0" event="script" value="ps/Psy Ball.lua"></instant>
+	<instant name="Psyshock" words="spell234" lvl="1000" mana="0" event="script" value="ps/Psyshock.lua"></instant>
+	<instant name="Pursuit" words="spell235" lvl="1000" mana="0" event="script" value="ps/Pursuit.lua"></instant>
+	<instant name="Red Fury" words="spell236" lvl="1000" mana="0" event="script" value="ps/Red Fury.lua"></instant>
+	<instant name="Rock Blast" words="spell237" lvl="1000" mana="0" event="script" value="ps/Rock Blast.lua"></instant>
+	<instant name="Roost" words="spell238" lvl="1000" mana="0" event="script" value="ps/Roost.lua"></instant>
+	<instant name="Safeguard" words="spell239" lvl="1000" mana="0" event="script" value="ps/Safeguard.lua"></instant>
+	<instant name="Scary Face" words="spell240" lvl="1000" mana="0" event="script" value="ps/Scary Face.lua"></instant>
+	<instant name="Shadowave" words="spell241" lvl="1000" mana="0" event="script" value="ps/Shadowave.lua"></instant>
+	<instant name="SmokeScreen" words="spell242" lvl="1000" mana="0" event="script" value="ps/SmokeScreen.lua"></instant>
+	<instant name="Steel Wing" words="spell243" lvl="1000" mana="0" event="script" value="ps/Steel Wing.lua"></instant>
+	<instant name="Stone Edge" words="spell244" lvl="1000" mana="0" event="script" value="ps/Stone Edge.lua"></instant>
+	<instant name="Sunny Day" words="spell245" lvl="1000" mana="0" event="script" value="ps/Sunny Day.lua"></instant>
+	<instant name="Surf" words="spell246" lvl="1000" mana="0" event="script" value="ps/Surf.lua"></instant>
+	<instant name="Swords Dance" words="spell247" lvl="1000" mana="0" event="script" value="ps/Swords Dance.lua"></instant>
+	<instant name="Synthesis" words="spell248" lvl="1000" mana="0" event="script" value="ps/Synthesis.lua"></instant>
+	<instant name="Tackle" words="spell249" lvl="1000" mana="0" event="script" value="ps/Tackle.lua"></instant>
+	<instant name="Tailwind" words="spell250" lvl="1000" mana="0" event="script" value="ps/Tailwind.lua"></instant>
+	<instant name="Take Down" words="spell251" lvl="1000" mana="0" event="script" value="ps/Take Down.lua"></instant>
+	<instant name="Team Claw" words="spell252" lvl="1000" mana="0" event="script" value="ps/Team Claw.lua"></instant>
+	<instant name="Tongue Grap" words="spell253" lvl="1000" mana="0" event="script" value="ps/Tongue Grap.lua"></instant>
+	<instant name="Tongue Hook" words="spell254" lvl="1000" mana="0" event="script" value="ps/Tongue Hook.lua"></instant>
+	<instant name="U-Turn" words="spell255" lvl="1000" mana="0" event="script" value="ps/U-Turn.lua"></instant>
+	<instant name="Venom Gale" words="spell256" lvl="1000" mana="0" event="script" value="ps/Venom Gale.lua"></instant>
+	<instant name="Yawn" words="spell257" lvl="1000" mana="0" event="script" value="ps/Yawn.lua"></instant>
+	<instant name="Rock Drill" words="spell258" lvl="1000" mana="0" event="script" value="ps/Rock Drill.lua"></instant>
+
+	<instant name="Sucker Punch" words="spell259" lvl="1000" mana="0" event="script" value="ps/Sucker Punch.lua"></instant>
+	<instant name="Present" words="spell260" lvl="1000" mana="0" event="script" value="ps/Present.lua"></instant>
+	<instant name="Low Kick" words="spell261" lvl="1000" mana="0" event="script" value="ps/Low Kick.lua"></instant>
+	<instant name="Struggle Bug" words="spell262" lvl="1000" mana="0" event="script" value="ps/Struggle Bug.lua"></instant>
+	<instant name="Shell Attack" words="spell263" lvl="1000" mana="0" event="script" value="ps/Shell Attack.lua"></instant>
+	<instant name="Inferno" words="spell264" lvl="1000" mana="0" event="script" value="ps/Inferno.lua"></instant>
+	<instant name="Fissure" words="spell265" lvl="1000" mana="0" event="script" value="ps/Fissure.lua"></instant>
+	<instant name="Wrap" words="spell266" lvl="1000" mana="0" event="script" value="ps/Wrap.lua"></instant>
+	<instant name="Rock n'Roll" words="spell267" lvl="1000" mana="0" event="script" value="ps/Rock n'Roll.lua"></instant>
+	<instant name="Power Wave" words="spell268" lvl="1000" mana="0" event="script" value="ps/Power Wave.lua"></instant>
+	<instant name="Psy Impact" words="spell269" lvl="1000" mana="0" event="script" value="ps/Psy Impact.lua"></instant>
+	<instant name="Ground Crusher" words="spell270" lvl="1000" mana="0" event="script" value="ps/Ground Crusher.lua"></instant>
+	<instant name="Last Resort" words="spell271" lvl="1000" mana="0" event="script" value="ps/Last Resort.lua"></instant>
+	<instant name="Two Face Shock" words="spell272" lvl="1000" mana="0" event="script" value="ps/Two Face Shock.lua"></instant>
+	<instant name="Aerial Ace" words="spell273" lvl="1000" mana="0" event="script" value="ps/Aerial Ace.lua"></instant>
+	<instant name="Echoed Voice" words="spell274" lvl="1000" mana="0" event="script" value="ps/Echoed Voice.lua"></instant>
+	<instant name="Electro Field" words="spell275" lvl="1000" mana="0" event="script" value="ps/Electro Field.lua"></instant>
+	<instant name="Petal Tornado" words="spell276" lvl="1000" mana="0" event="script" value="ps/Petal Tornado.lua"></instant>
+	<instant name="Seed Bomb" words="spell277" lvl="1000" mana="0" event="script" value="ps/Seed Bomb.lua"></instant>
+	<instant name="Demon Kicker" words="spell278" lvl="1000" mana="0" event="script" value="passivas/Demon Kicker.lua"></instant>
+	<instant name="Demon Puncher" words="spell279" lvl="1000" mana="0" event="script" value="passivas/Demon Puncher.lua"></instant>
+	<instant name="Cross Poison" words="spell280" lvl="1000" mana="0" event="script" value="ps/Cross Poison.lua"></instant>
+	<instant name="Fury Swipes" words="spell281" lvl="1000" mana="0" event="script" value="ps/Fury Swipes.lua"></instant>
+	<instant name="Gyro Ball" words="spell282" lvl="1000" mana="0" event="script" value="ps/Gyro Ball.lua"></instant>
+	<instant name="Hydro Dance" words="spell283" lvl="1000" mana="0" event="script" value="ps/Hydro Dance.lua"></instant>
+	<instant name="Jump Kick" words="spell284" lvl="1000" mana="0" event="script" value="ps/Jump Kick.lua"></instant>
+	<instant name="Night Slash" words="spell285" lvl="1000" mana="0" event="script" value="ps/Night Slash.lua"></instant>
+	<instant name="Poison Jab" words="spell286" lvl="1000" mana="0" event="script" value="ps/Poison Jab.lua"></instant>
+	<instant name="Rain Dance" words="spell287" lvl="1000" mana="0" event="script" value="ps/Rain Dance.lua"></instant>
+	<instant name="Reverse Earthshock" words="spell288" lvl="1000" mana="0" event="script" value="ps/Reverse Earthshock.lua"></instant>
+	<instant name="Rock Tomb" words="spell289" lvl="1000" mana="0" event="script" value="ps/Rock Tomb.lua"></instant>
+	<instant name="Sand Tomb" words="spell290" lvl="1000" mana="0" event="script" value="ps/Sand Tomb.lua"></instant>
+	<instant name="Waterfall" words="spell291" lvl="1000" mana="0" event="script" value="ps/Waterfall.lua"></instant>
+	<instant name="Wild Charge" words="spell292" lvl="1000" mana="0" event="script" value="ps/Wild Charge.lua"></instant>
+
+	<instant name="Lava Plume" words="spell293" lvl="1000" mana="0" event="script" value="ps/Lava Plume.lua"></instant>
+	<instant name="Silver Wind" words="spell294" lvl="1000" mana="0" event="script" value="ps/Silver Wind.lua"></instant>
+	<instant name="Bug Buzz" words="spell295" lvl="1000" mana="0" event="script" value="ps/Bug Buzz.lua"></instant>
+	<instant name="Whirlpool" words="spell296" lvl="1000" mana="0" event="script" value="ps/Whirlpool.lua"></instant>
+	<instant name="Iron Head" words="spell297" lvl="1000" mana="0" event="script" value="ps/Iron Head.lua"></instant>
+	<instant name="Brick Beak" words="spell298" lvl="1000" mana="0" event="script" value="ps/Brick Beak.lua"></instant>
+	<instant name="Volcano Burst" words="spell299" lvl="1000" mana="0" event="script" value="ps/Volcano Burst.lua"></instant>
+	<instant name="Hammer Arm" words="spell300" lvl="1000" mana="0" event="script" value="ps/Hammer Arm.lua"></instant>
+      <instant name="Shadow" words="spell301" lvl="1000" mana="0" event="script" value="ps/Shadow.lua"></instant>
+
+
+
+
+</spells>
