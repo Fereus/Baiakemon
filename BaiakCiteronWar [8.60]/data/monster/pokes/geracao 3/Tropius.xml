@@ -21,14 +21,7 @@
 </flags>
   <attacks>
 	  <attack name="melee" interval="2000" chance="100" range="1" min="-35" max="-60"/>  
-        <attack name="Quick Attack" interval="2852" chance="29" range="1"/>
-        <attack name="Razor Leaf" interval="2758" chance="30" range="4"/>
-        <attack name="Slash" interval="2993" chance="28" range="6"/>
-        <attack name="Vine Whip" interval="2711" chance="30" range="1"/>
-        <attack name="Headbutt" interval="3557" chance="25" range="4"/>
-        <attack name="Leech Seed" interval="4779" chance="17" range="6"/>
-        <attack name="Bullet Seed" interval="5766" chance="18" range="6"/>
-        <attack name="Solar Beam" interval="4497" chance="21" range="6"/>
+      
   </attacks>
   <defenses armor="0" defense="0">
   </defenses>

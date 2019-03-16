@@ -20,14 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Quick Attack" interval="2070" chance="30" range="1"/>
-        <attack name="Slash" interval="2052" chance="30" range="1"/>
-        <attack name="Wing Attack" interval="5022" chance="30" range="5"/>
-        <attack name="Fury Cutter" interval="2540" chance="30" range="5"/>
-        <attack name="Agility" interval="6330" chance="17" range="6"/>
-        <attack name="Shredder Team" interval="5040" chance="5" range="6"/>
-        <attack name="Team Slice" interval="5103" chance="5" range="6"/>
-        <attack name="X-Scissor" interval="2698" chance="5" range="5"/>
+       
     </attacks>
     <defenses armor="0" defense="0">
 	</defenses>

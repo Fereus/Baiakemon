@@ -21,13 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Thunder Shock" interval="2664" chance="30" range="3"/>
-        <attack name="Thunder Wave" interval="2758" chance="30" range="3"/>
-        <attack name="Rollout" interval="3228" chance="27" range="6"/>
-        <attack name="Spark" interval="2946" chance="28" range="6"/>
-        <attack name="Selfdestruct" interval="10560" chance="-18" range="6"/>
-        <attack name="Charge Beam" interval="3510" chance="25" range="6"/>
-		<attack name="Electric Storm" interval="4510" chance="25" range="6"/>
+       
 </attacks>
 
 

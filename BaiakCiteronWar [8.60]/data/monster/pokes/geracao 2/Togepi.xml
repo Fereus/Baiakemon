@@ -21,10 +21,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Quick Attack" interval="2570" chance="31" range="1"/>
-        <attack name="Lovely Kiss" interval="3105" chance="29" range="3"/>
-        <attack name="Metronome" interval="3246" chance="28" range="5"/>
-        <attack name="Hyper Voice" interval="2664" chance="30" range="5"/>
+        
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

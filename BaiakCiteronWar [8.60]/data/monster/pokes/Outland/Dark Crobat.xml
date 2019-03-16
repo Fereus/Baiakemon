@@ -19,14 +19,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Bite" interval="1864" chance="30" range="1"/>
-        <attack name="Air Cutter" interval="2500" chance="25" range="1"/>
-        <attack name="Toxic" interval="2305" chance="50" range="6"/>
-        <attack name="Super Sonic" interval="4920" chance="5" range="6"/>
-        <attack name="Poison Fang" interval="2093" chance="30" range="1"/>
-        <attack name="Whirlwind" interval="2581" chance="27" range="6"/>
-        <attack name="Wing Attack" interval="2522" chance="30" range="6"/>
-	<attack name="Venom Gale" interval="3599" chance="25" range="6"/>
+     
         </attacks>
     <defenses armor="0" defense="0"/>
   <voices interval="5000" chance="10">

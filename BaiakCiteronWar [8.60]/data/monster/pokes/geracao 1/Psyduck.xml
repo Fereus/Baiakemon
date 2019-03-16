@@ -21,10 +21,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Water Gun" interval="2852" chance="29" range="6"/>
-        <attack name="Aqua Tail" interval="2758" chance="30" range="1"/>
-        <attack name="Confusion" interval="2805" chance="29" range="6"/>
-        <attack name="Headbutt" interval="3040" chance="28" range="1"/>
+        
     </attacks>
     <defenses armor="0" defense="0">
     </defenses>

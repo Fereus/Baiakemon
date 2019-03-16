@@ -20,15 +20,8 @@
 </flags>
   <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Bubbles" interval="2070" chance="70" range="7"/>
-        <attack name="Mud Shot" interval="2664" chance="10" range="7"/>
-        <attack name="Bubblebeam" interval="2098" chance="30" range="7"/>
-        <attack name="Water Gun" interval="2099" chance="30" range="6"/>
-        <attack name="Twister" interval="3052" chance="15" range="6"/>
-		<attack name="Dragon Pulse" interval="3052" chance="15" range="6"/>
-		<attack name="Quick Attack" interval="2052" chance="30" range="1"/>
-		<attack name="Hydropump" interval="3252" chance="20" range="6"/>
-		    </attacks>
+       
+ </attacks>
     <defenses armor="0" defense="0"/>
 <voices interval="5000" chance="10">
 	<voice sentence="KIING!"/>

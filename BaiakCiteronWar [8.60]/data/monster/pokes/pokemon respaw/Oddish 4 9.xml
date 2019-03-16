@@ -22,18 +22,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100">  </attack>
-        <attack name="Absorb" interval="2711" chance="30" range="1">
-        </attack>
-        <attack name="Acid" interval="2758" chance="30" range="3">
-        </attack>
-        <attack name="Leech Seed" interval="3040" chance="28" range="3">
-        </attack>
-        <attack name="Sleep Powder" interval="5625" chance="18" range="6">
-        </attack>
-        <attack name="Poison Powder" interval="5625" chance="18" range="6">
-        </attack>
-        <attack name="Stun Spore" interval="5625" chance="18" range="6">
-        </attack>
+      
 </attacks>
 
 

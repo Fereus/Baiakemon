@@ -20,14 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Doubleslap" interval="2617" chance="30" range="1"/>
-        <attack name="Sing" interval="5625" chance="31" range="6"/>
-        <attack name="Hyper Voice" interval="3920" chance="20" range="4"/>
-		<attack name="Lovely Kiss" interval="3920" chance="20" range="3"/>
-        <attack name="Selfheal" interval="5625" chance="18" range="6"/>
-		<attack name="Healarea" interval="5625" chance="18" range="6"/>
-		<attack name="Focus" interval="4625" chance="18" range="6"/>
-        <attack name="Metronome" interval="6330" chance="17" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0">
 	</defenses>

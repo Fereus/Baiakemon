@@ -20,15 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Bubbles" interval="2805" chance="39" range="3"/>
-        <attack name="Rock Slide" interval="2852" chance="49" range="3"/>
-		<attack name="Rock throw" interval="2852" chance="69" range="3"/>
-        <attack name="Slash" interval="2946" chance="28" range="1"/>
-		<attack name="Night Slash" interval="2946" chance="38" range="1"/>
-        <attack name="Ancient Power" interval="4040" chance="40" range="6"/>
-		<attack name="Fury Cutter" interval="3220" chance="24" range="6"/>
-        <attack name="Harden" interval="5625" chance="48" range="6"/>
-        <attack name="Mud Shot" interval="2805" chance="29" range="3"/>
+       
     </attacks>
     <defenses armor="0" defense="0">
 	</defenses>

@@ -19,7 +19,9 @@
   </flags>
   <attacks>
     <attack name="melee" interval="2000" skill="46" attack="37"/>
+    <attack name="Berserk" interval="117" chance="30" range="1" min="-150" max="-250" />
   </attacks>
+
   <defenses armor="13" defense="21"/>
     <elements>
     <element energyPercent="20"/>

@@ -21,15 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Doubleslap" interval="2017" chance="30" range="1"/>
-        <attack name="Lovely Kiss" interval="3952" chance="10" range="3"/>
-        <attack name="Aurora Beam" interval="3322" chance="29" range="6"/>
-        <attack name="Ice Punch" interval="3040" chance="50" range="1"/>
-        <attack name="Ice Beam" interval="3310" chance="50" range="6"/>
-        <attack name="Icy Wind" interval="2035" chance="30" range="6"/>
-        <attack name="Psywave" interval="2040" chance="30" range="6"/>
-        <attack name="Great Love" interval="4069" chance="10" range="6"/>
-        <attack name="Blizzard" interval="4403" chance="25" range="6"/>
+      
 </attacks>
 
 

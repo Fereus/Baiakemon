@@ -20,15 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Doubleslap" interval="2617" chance="30" range="1"/>
-        <attack name="Lovely Kiss" interval="3952" chance="29" range="3"/>
-        <attack name="Aurora Beam" interval="3322" chance="26" range="6"/>
-        <attack name="Ice Punch" interval="3040" chance="28" range="1"/>
-        <attack name="Ice Beam" interval="3510" chance="25" range="6"/>
-        <attack name="Icy Wind" interval="3635" chance="16" range="6"/>
-        <attack name="Psywave" interval="2440" chance="28" range="6"/>
-        <attack name="Great Love" interval="4069" chance="26" range="6"/>
-        <attack name="Blizzard" interval="4403" chance="20" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

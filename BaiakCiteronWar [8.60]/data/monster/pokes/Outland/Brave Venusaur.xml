@@ -20,17 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Body Slam" interval="2052" chance="29" range="1"/>
-        <attack name="Razor Leaf" interval="3058" chance="70" range="6"/>
-        <attack name="Vine Whip" interval="2093" chance="28" range="3"/>
-        <attack name="Headbutt" interval="2011" chance="30" range="1"/>
-        <attack name="Leech Seed" interval="3087" chance="28" range="6"/>
-        <attack name="Bullet Seed" interval="2557" chance="28" range="6"/>
-        <attack name="Solar Beam" interval="4779" chance="5" range="5"/>
-        <attack name="Sleep Powder" interval="5766" chance="5" range="4"/>
-        <attack name="Stun Spore" interval="4497" chance="5" range="4"/>
-        <attack name="Poison Powder" interval="5202" chance="25" range="4"/>
-        <attack name="Leaf Storm" interval="4826" chance="5" range="6"/>
+      
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

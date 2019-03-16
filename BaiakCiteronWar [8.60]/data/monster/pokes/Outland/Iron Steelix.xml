@@ -20,15 +20,7 @@
 </flags>
   <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Sand Attack" interval="2852" chance="25" range="4"/>
-        <attack name="Rock Throw" interval="1800" chance="60" range="5"/>
-        <attack name="Stone Edge" interval="1993" chance="60" range="5"/>
-        <attack name="Rock Slide" interval="1893" chance="60" range="5"/>
-        <attack name="Earthshock" interval="6340" chance="20" range="5"/>
-        <attack name="Fissure" interval="6616" chance="30" range="5"/>
-        <attack name="Earthquake" interval="6045" chance="20" range="4"/>
-        <attack name="Harden" interval="3025" chance="5" range="5"/>
-	<attack name="iron defense" interval="5000" chance="5" range="5"/>
+      
   </attacks>
   <defenses armor="0" defense="0">
   </defenses>

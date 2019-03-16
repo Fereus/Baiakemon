@@ -2955,6 +2955,7 @@
     <monster name="Amazon" x="4" y="-5" z="7" spawntime="60"/>
     <monster name="Amazon" x="-1" y="-4" z="7" spawntime="60"/>
     <monster name="Amazon" x="6" y="-4" z="7" spawntime="60"/>
+    <monster name="Abra" x="-10" y="-3" z="7" spawntime="60"/>
     <monster name="Amazon" x="3" y="-3" z="7" spawntime="60"/>
     <monster name="Amazon" x="3" y="4" z="7" spawntime="60"/>
     <monster name="Amazon" x="-1" y="7" z="7" spawntime="60"/>

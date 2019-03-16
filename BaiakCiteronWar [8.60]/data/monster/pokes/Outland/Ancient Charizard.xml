@@ -21,15 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="1000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Dragon Claw" interval="450" chance="20" range="1"/>
-        <attack name="Ember" interval="400" chance="60" range="4"/>
-        <attack name="Flamethrower" interval="550" chance="20" range="6"/>
-		<attack name="Fireball" interval="450" chance="60" range="6"/>
-        <attack name="Fire Fang" interval="600" chance="20" range="3"/>
-        <attack name="Raging Blast" interval="900" chance="20" range="6"/>
-        <attack name="Fire Blast" interval="1000" chance="20" range="6"/>
-        <attack name="Wing Attack" interval="800" chance="20" range="6"/>
-		<attack name="Magma Storm" interval="1000" chance="20" range="6"/>
+       
 		
 </attacks>
 

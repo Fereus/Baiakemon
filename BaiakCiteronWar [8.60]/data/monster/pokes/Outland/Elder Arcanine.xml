@@ -21,16 +21,7 @@
 
 <attacks>
          <attack name="melee" interval="2000" chance="100" range="10" min="-50" max="-100"/>
-        <attack name="Quick Attack" interval="2023" chance="30" range="1"/>
-        <attack name="Ember" interval="2064" chance="50" range="6"/>
-        <attack name="Bite" interval="2058" chance="30" range="1"/>
-        <attack name="Roar" interval="4005" chance="1" range="2"/>
-        <attack name="Fireball" interval="2093" chance="45" range="6"/>
-        <attack name="Flamethrower" interval="2069" chance="30" range="4"/>
-	<attack name="Fire Fang" interval="2093" chance="50" range="1"/>
-	<attack name="Fire Blast" interval="3093" chance="10" range="5"/>
-	<attack name="Tri Flames" interval="3293" chance="8" range="5"/>
-	<attack name="War Dog" interval="3993" chance="5" range="6"/>
+       
 </attacks>
 
 

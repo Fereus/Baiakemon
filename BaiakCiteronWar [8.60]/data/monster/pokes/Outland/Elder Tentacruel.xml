@@ -21,16 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Acid" interval="1500" chance="45" range="6"/>
-        <attack name="Waterball" interval="2052" chance="30" range="6"/>
-        <attack name="Poison Sting" interval="1500" chance="30" range="1"/>
-        <attack name="Mud Shot" interval="2000" chance="5" range="5"/>
-        <attack name="Super Sonic" interval="4920" chance="6" range="5"/>
-        <attack name="Psy Pulse" interval="1500" chance="35" range="6"/>
-        <attack name="Poison Bomb" interval="2246" chance="30" range="6"/>
-        <attack name="Bubbles" interval="1500" chance="35" range="6"/>
-        <attack name="Psywave" interval="1600" chance="30" range="5"/>
-        <attack name="Hydropump" interval="3500" chance="25" range="6"/>
+        
 </attacks>
 
 

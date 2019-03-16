@@ -21,14 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Sand Attack" interval="2852" chance="40" range="4"/>
-        <attack name="Iron Tail" interval="2852" chance="40" range="1"/>
-        <attack name="Rock Throw" interval="2805" chance="40" range="3"/>
-        <attack name="Rock Slide" interval="2993" chance="40" range="3"/>
-        <attack name="Earthshock" interval="3040" chance="40" range="6"/>
-        <attack name="Falling Rocks" interval="3416" chance="40" range="6"/>
-        <attack name="Earthquake" interval="4745" chance="40" range="6"/>
-        <attack name="Harden" interval="5625" chance="40" range="6"/>
+     
 </attacks>
 
 

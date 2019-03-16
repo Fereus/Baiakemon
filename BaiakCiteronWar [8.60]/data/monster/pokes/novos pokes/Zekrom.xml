@@ -21,16 +21,7 @@
 
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Aqua Tail" interval="2805" chance="29" range="1"/>
-		<attack name="Headbutt" interval="2705" chance="29" range="1"/>
-        <attack name="Dragon Breath" interval="3040" chance="28" range="6"/>
-        <attack name="Hyper Beam" interval="2899" chance="29" range="5"/>
-        <attack name="Thunder Wave" interval="2993" chance="28" range="6"/>
-        <attack name="Twister" interval="2852" chance="29" range="3"/>
-        <attack name="Wing Attack" interval="3040" chance="28" range="6"/>
-		<attack name="Thunder Punch" interval="2752" chance="29" range="1"/>
-		<attack name="Fire Punch" interval="2952" chance="29" range="1"/>
-		<attack name="Dragon Claw" interval="2900" chance="29" range="1"/>
+       
     </attacks>
      <defenses armor="0" defense="0">
 	</defenses>

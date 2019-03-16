@@ -21,13 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Quick Attack" interval="2000" chance="30" range="1"/>
-        <attack name="Thunder Punch" interval="2300" chance="29" range="1"/>
-        <attack name="Thunder Shock" interval="2000" chance="30" range="6"/>
-        <attack name="Thunder Bolt" interval="2000" chance="30" range="6"/>
-        <attack name="Thunder Wave" interval="1500" chance="20" range="5"/>
-        <attack name="Thunder" interval="3000" chance="25" range="5"/>
-        <attack name="Electric Storm" interval="3000" chance="25" range="5"/>
+     
 </attacks>
 
 

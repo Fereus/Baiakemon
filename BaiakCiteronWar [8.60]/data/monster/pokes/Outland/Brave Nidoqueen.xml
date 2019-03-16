@@ -20,16 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Quick Attack" interval="2069" chance="30" range="1"/>
-        <attack name="Horn Attack" interval="2093" chance="30" range="1"/>
-        <attack name="Bite" interval="2058" chance="30" range="1"/>
-        <attack name="Poison Sting" interval="2011" chance="30" range="1"/>
-        <attack name="Poison Fang" interval="2046" chance="30" range="1"/>
-        <attack name="Stomp" interval="3946" chance="5" range="6"/>
-        <attack name="Earthshock" interval="2422" chance="10" range="6"/>
-        <attack name="Strafe" interval="3792" chance="25" range="6"/>
-		<attack name="Mega Punch" interval="2492" chance="28" range="1"/>
-        <attack name="Toxic Spikes" interval="6044" chance="50" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

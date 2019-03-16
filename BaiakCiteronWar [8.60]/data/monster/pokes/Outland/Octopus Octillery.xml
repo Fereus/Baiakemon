@@ -20,13 +20,7 @@
 </flags>
   <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Ice Beam" interval="2076" chance="10" range="4"/>
-        <attack name="Waterball" interval="2070" chance="50" range="6"/>
-        <attack name="Water Gun" interval="2058" chance="50" range="5"/>
-        <attack name="Aurora Beam" interval="2564" chance="10" range="4"/>
-        <attack name="Hyper Beam" interval="5000" chance="10" range="4"/>
-	<attack name="Octazooka" interval="5020" chance="10" range="6"/>
-        <attack name="Surf" interval="5000" chance="10" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
 <voices interval="5000" chance="70">

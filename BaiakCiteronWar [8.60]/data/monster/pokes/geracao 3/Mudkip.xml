@@ -21,12 +21,7 @@
 </flags>
  <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Headbutt" interval="2617" chance="30" range="1"/>
-        <attack name="Bubbles" interval="2570" chance="31" range="4"/>
-        <attack name="Water Gun" interval="2993" chance="28" range="6"/>
-        <attack name="Harden" interval="5625" chance="18" range="6"/>
-        <attack name="Waterball" interval="2946" chance="28" range="4"/>
-        <attack name="Aqua Tail" interval="2758" chance="30" range="1"/>
+        
     </attacks>
     <defenses armor="0" defense="0"/>
 <voices interval="5000" chance="10">

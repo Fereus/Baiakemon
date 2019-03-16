@@ -21,10 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Quick Attack" interval="2476" chance="31" range="2"/>
-        <attack name="Scratch" interval="2664" chance="30" range="1"/>
-        <attack name="Bite" interval="2852" chance="29" range="1"/>
-        <attack name="Super Fang" interval="3040" chance="28" range="1"/>
+        
 </attacks>
 
 

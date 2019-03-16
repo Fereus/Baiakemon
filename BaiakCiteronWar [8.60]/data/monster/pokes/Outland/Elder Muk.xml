@@ -21,13 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Mud Shot" interval="2064" chance="50" range="6"/>
-        <attack name="Acid" interval="2058" chance="50" range="6"/>
-        <attack name="Sludge" interval="2052" chance="50" range="6"/>
-        <attack name="Mud Bomb" interval="2046" chance="50" range="6"/>
-        <attack name="Poison Bomb" interval="2093" chance="50" range="6"/>
-        <attack name="Harden" interval="5625" chance="20" range="6"/>
-        <attack name="Sludge Rain" interval="4369" chance="25" range="4"/>
+       
 </attacks>
 
 

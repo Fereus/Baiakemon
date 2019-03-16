@@ -21,12 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="400" chance="100" range="1" min="-100" max="-200"/>
-		<attack name="Mega Punch" interval="292" chance="27" range="1"/>
-        <attack name="Triple Punch" interval="244" chance="28" range="1"/>
-        <attack name="Multi-Punch" interval="332" chance="26" range="4"/>
-        <attack name="Ultimate Champion" interval="435" chance="20" range="6"/>
-
-		<attack name="Demon Puncher" interval="400" chance="100" range="1"/>
+	
 </attacks>
 
 

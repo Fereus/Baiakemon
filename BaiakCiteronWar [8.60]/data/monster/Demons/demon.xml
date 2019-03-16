@@ -22,8 +22,9 @@
     <attack name="manadrain" interval="2000" chance="13" range="7" min="0" max="-120"/>
     <attack name="fire" interval="2000" chance="30" range="7" radius="7" target="1" min="-150" max="-250">
 		<attribute key="shootEffect" value="fire"/>
-		<attribute key="areaEffect" value="firearea"/>
+		<attribute key="areaEffect" value="firearea"/>    
 	</attack>
+   <attack name="Berserk" interval="117" chance="30" range="1" min="-150" max="-250" />
     <attack name="firefield" interval="2000" chance="12" range="7" radius="1" target="1">
 		<attribute key="shootEffect" value="fire"/>
 	</attack>

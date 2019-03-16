@@ -20,17 +20,7 @@
     </flags>
     <attacks>
 		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Confusion" interval="2617" chance="30" range="6"/>
-        <attack name="Restore" interval="4920" chance="20" range="6"/>
-        <attack name="Psy Pulse" interval="2852" chance="29" range="6"/>
-        <attack name="Psywave" interval="3040" chance="28" range="5"/>
-        <attack name="Psybeam" interval="3275" chance="26" range="6"/>
-        <attack name="Calm Mind" interval="5625" chance="18" range="6"/>
-        <attack name="Psychic" interval="3510" chance="25" range="6"/>
-		<attack name="Hypnosis" interval="5510" chance="25" range="3"/>
-		<attack name="Psyusion" interval="5610" chance="25" range="4"/>
-		<attack name="Reflect" interval="4510" chance="20" range="6"/>
-		<attack name="Divine Punishment" interval="6010" chance="20" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

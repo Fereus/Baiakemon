@@ -20,12 +20,7 @@
 </flags>
   <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Headbutt" interval="2852" chance="29" range="1"/>
-        <attack name="Body Slam" interval="2899" chance="50" range="1"/>
-        <attack name="Hyper Beam" interval="2899" chance="40" range="6"/>
-        <attack name="Stomp" interval="3275" chance="26" range="6"/>
-        <attack name="Confusion" interval="3040" chance="50" range="6"/>
-        <attack name="Psychic" interval="3322" chance="26" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
 <voices interval="5000" chance="10">

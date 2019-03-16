@@ -4,8 +4,8 @@ useKpdoDlls = false -- coloque true pra usar as barras de cooldown.
 intervalToRegrowBushAndStones = 15 -- this also affects dig (in seconds) / isso afeta dig tamb? (em segundos)
 nurseHealsOnlyInPZ = true -- true = precisa estar em pz pra falar com a nurse
 accountManagerOutfit = {lookType = 304, lookHead = 1, lookBody = 1, lookLegs = 1, lookFeet = 1}
-accountManagerRandomPokemonOutfit = true -- se true, quando o acc manager logar, vai ter uma outfit de pokemon aleatoria
-reloadHighscoresWhenUsingPc = true -- talvez d?lag, lembrando que tem uma op?o no config.lua que indica o intervalo do update das highscores
+accountManagerRandomPokemonOutfit = false -- se true, quando o acc manager logar, vai ter uma outfit de pokemon aleatoria
+reloadHighscoresWhenUsingPc = false -- talvez d?lag, lembrando que tem uma op?o no config.lua que indica o intervalo do update das highscores
 backupPos = {x = 4, y = 3, z = 10} -- alguma pos para criar monstros quando tentar sair do fly/ride/surf em lugares que n? s? muito espa?sos
 nurseHealsPokemonOut = true
 maximumBoost = 50

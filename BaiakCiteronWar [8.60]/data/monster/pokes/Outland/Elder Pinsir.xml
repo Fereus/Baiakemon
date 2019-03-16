@@ -21,14 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Scratch" interval="2005" chance="50" range="1"/>
-        <attack name="Slash" interval="2046" chance="30" range="1"/>
-        <attack name="Bug Bite" interval="2005" chance="30" range="1"/>
-        <attack name="Guillotine" interval="2510" chance="50" range="1"/>
-        <attack name="Harden" interval="5625" chance="10" range="5"/>
-        <attack name="X-Scissor" interval="2369" chance="30" range="4"/>
-	<attack name="Fury Cutter" interval="2569" chance="30" range="4"/>
-        <attack name="Rage" interval="4510" chance="18" range="6"/>
+       
 </attacks>
 
 

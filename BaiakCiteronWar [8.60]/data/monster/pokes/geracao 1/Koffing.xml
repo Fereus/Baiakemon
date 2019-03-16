@@ -20,13 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Mud Shot" interval="2964" chance="30" range="3"/>
-        <attack name="Acid" interval="2758" chance="30" range="4"/>
-        <attack name="Headbutt" interval="2805" chance="29" range="1"/>
-        <attack name="Poison Gas" interval="3040" chance="25" range="6"/>
-        <attack name="Poison Bomb" interval="2946" chance="28" range="3"/>
-		<attack name="Mud Bomb" interval="3146" chance="28" range="3"/>
-		<attack name="Selfdestruct" interval="5946" chance="20" range="3"/>
+        
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

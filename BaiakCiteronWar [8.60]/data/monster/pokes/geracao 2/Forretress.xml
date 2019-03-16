@@ -20,11 +20,7 @@
 </flags>
   <attacks>
 	  <attack name="melee" interval="2000" chance="100" range="1" min="-82" max="-101"/>
-        <attack name="Headbutt" interval="2852" chance="29" range="1"/>
-        <attack name="String Shot" interval="2758" chance="30" range="4"/>
-        <attack name="Bug Bite" interval="2993" chance="28" range="6"/>
-        <attack name="Harden" interval="2711" chance="30" range="1"/>
-        <attack name="Body Slam" interval="3040" chance="28" range="1"/>
+     
     </attacks>
   <defenses armor="0" defense="0">
   </defenses>

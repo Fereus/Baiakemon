@@ -21,11 +21,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Doubleslap" interval="2617" chance="30" range="1"/>
-		<attack name="Lovely Kiss" interval="3217" chance="20" range="3"/>
-        <attack name="Sing" interval="3470" chance="31" range="3"/>
-        <attack name="Selfheal" interval="4920" chance="20" range="4"/>
-        <attack name="Metronome" interval="5625" chance="18" range="6"/>
+       
 </attacks>
     <defenses armor="0" defense="0"/>
   <voices interval="5000" chance="10">

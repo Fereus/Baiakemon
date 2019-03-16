@@ -20,12 +20,7 @@
 </flags>
  <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Rock Slide" interval="2758" chance="30" range="3"/>
-        <attack name="Mega Punch" interval="2852" chance="29" range="1"/>
-        <attack name="Rock Throw" interval="2805" chance="29" range="3"/>
-        <attack name="Earthshock" interval="3040" chance="28" range="6"/>
-        <attack name="Falling Rocks" interval="3980" chance="22" range="6"/>
-        <attack name="Shockwave" interval="3322" chance="26" range="6"/>
+     
       </attacks>
     <defenses armor="0" defense="0"/>
   <voices interval="5000" chance="10">

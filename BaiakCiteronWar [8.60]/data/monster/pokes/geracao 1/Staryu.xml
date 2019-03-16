@@ -20,12 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Swift" interval="2758" chance="30" range="3"/>
-        <attack name="Slash" interval="2852" chance="29" range="1"/>
-        <attack name="Water Gun" interval="2899" chance="29" range="6"/>
-        <attack name="Bubbles" interval="2343" chance="25" range="3"/>
-        <attack name="Waterball" interval="2946" chance="28" range="3"/>
-        <attack name="Restore" interval="6330" chance="17" range="6"/>
+        
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

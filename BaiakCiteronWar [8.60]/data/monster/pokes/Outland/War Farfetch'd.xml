@@ -20,14 +20,7 @@
     </flags>
     <attacks>
          <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Sand Attack" interval="2564" chance="15" range="4"/>
-        <attack name="Drill Peck" interval="1099" chance="15" range="1"/>
-        <attack name="Slash" interval="1052" chance="15" range="1"/>
-        <attack name="Wing Attack" interval="1090" chance="15" range="5"/>
-        <attack name="Stickmerang" interval="1093" chance="60" range="6"/>
-        <attack name="Stickslash" interval="1052" chance="50" range="5"/>
-        <attack name="Stick Throw" interval="1016" chance="50" range="5"/>
-		<attack name="Strafe" interval="3416" chance="15" range="6"/>
+      
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

@@ -20,13 +20,7 @@
 </flags>
   <attacks>
 		<attack name="melee" interval="2000" chance="100" range="1" min="-62" max="-91"/>
-		<attack name="Quick Attack" interval="3040" chance="28" range="1"/>
-		<attack name="Sand Attack" interval="2946" chance="28" range="4"/>
-		<attack name="Whirlwind" interval="3745" chance="24" range="4"/>
-		<attack name="Fire Fang" interval="3510" chance="25" range="3"/>
-		<attack name="Wing Attack" interval="3745" chance="24" range="1"/>
-		<attack name="Earthshock" interval="3510" chance="25" range="3"/>
-		<attack name="Mud Shot" interval="2946" chance="28" range="3"/>
+		
   </attacks>
   <defenses armor="0" defense="0">
   </defenses>

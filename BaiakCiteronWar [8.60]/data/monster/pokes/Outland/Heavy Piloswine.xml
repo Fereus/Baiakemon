@@ -20,15 +20,7 @@
 </flags>
   <attacks>
 	<attack name="melee" interval="2000" chance="100" range="1" min="-22" max="-38"/>
-	<attack name="Mud Bomb" interval="4852" chance="10" range="4"/>
-        <attack name="Mud Slap" interval="4758" chance="10" range="4"/>
-        <attack name="Ice Fang" interval="2093" chance="80" range="1"/>
-        <attack name="Aurora Beam" interval="2511" chance="20" range="6"/>
-        <attack name="Ice Beam" interval="2397" chance="20" range="6"/>
-	<attack name="Two Face Shock" interval="2597" chance="20" range="6"/>
-	<attack name="Blizzard" interval="4097" chance="10" range="6"/>
-        <attack name="Earthquake" interval="4097" chance="10" range="6"/>
-        <attack name="Icy Wind" interval="2093" chance="20" range="6"/>       
+	  
  </attacks>
    <defenses armor="0" defense="0">
   </defenses>

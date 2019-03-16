@@ -21,10 +21,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Hypnosis" interval="5202" chance="19" range="3"/>
-        <attack name="Leech Seed" interval="2946" chance="28" range="3"/>
-        <attack name="Confusion" interval="2852" chance="29" range="6"/>
-        <attack name="Egg Bomb" interval="2993" chance="28" range="3"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

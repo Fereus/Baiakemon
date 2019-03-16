@@ -20,13 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Quick Attack" interval="2617" chance="30" range="1"/>
-        <attack name="Sand Attack" interval="2476" chance="31" range="3"/>
-        <attack name="Whirlwind" interval="2758" chance="20" range="5"/>
-        <attack name="Drill Peck" interval="2852" chance="25" range="1"/>
-		<attack name="Wing Attack" interval="2852" chance="20" range="5"/>
-		<attack name="Tornado" interval="4852" chance="20" range="4"/>
-		<attack name="Strafe" interval="3952" chance="20" range="4"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

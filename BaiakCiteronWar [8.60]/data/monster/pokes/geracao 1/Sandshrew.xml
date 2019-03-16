@@ -20,11 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Scratch" interval="2664" chance="30" range="1"/>
-        <attack name="Mud Shot" interval="2899" chance="29" range="3"/>
-        <attack name="Sand Attack" interval="2758" chance="30" range="6"/>
-        <attack name="Rollout" interval="3510" chance="25" range="6"/>
-        <attack name="Shockwave" interval="3322" chance="26" range="6"/>
+      
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

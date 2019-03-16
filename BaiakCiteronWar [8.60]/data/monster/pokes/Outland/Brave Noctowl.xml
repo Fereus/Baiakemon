@@ -20,15 +20,7 @@
 </flags>
   <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Quick Attack" interval="2070" chance="30" range="1"/>
-        <attack name="Peck" interval="2005" chance="30" range="1"/>
-        <attack name="Psychic" interval="2946" chance="30" range="4"/>
-        <attack name="Echoed Voice" interval="2946" chance="30" range="4"/>
-        <attack name="Drill Peck" interval="2064" chance="30" range="1"/>
-	<attack name="Confusion" interval="2764" chance="10" range="5"/>
-	<attack name="Air Slash" interval="2464" chance="30" range="5"/>
-	<attack name="Hypnosis" interval="3264" chance="10" range="5"/>
-        <attack name="Roost" interval="3264" chance="2" range="5"/>
+       
     </attacks>
   <defenses armor="0" defense="0"/>
 <voices interval="5000" chance="10">

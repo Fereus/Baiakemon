@@ -20,10 +20,7 @@
 </flags>
  <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Absorb" interval="2711" chance="30" range="1"/>
-        <attack name="Leech Seed" interval="3040" chance="28" range="3"/>
-        <attack name="Vine Whip" interval="3040" chance="28" range="6"/>
-        <attack name="Razor Leaf" interval="2625" chance="23" range="3"/>
+        
        </attacks>
     <defenses armor="0" defense="0"/>
   <voices interval="5000" chance="10">

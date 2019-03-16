@@ -20,15 +20,7 @@
 </flags>
   <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Roar" interval="4476" chance="1" range="2"/>
-        <attack name="Crunch" interval="2064" chance="30" range="1"/>
-        <attack name="Bite" interval="2052" chance="5" range="1"/>
-        <attack name="Thunder Fang" interval="2040" chance="5" range="1"/>
-	<attack name="Fire Fang" interval="2040" chance="5" range="1"/>
-	<attack name="Ice Fang" interval="2040" chance="5" range="1"/>
-        <attack name="Take Down" interval="3040" chance="5" range="3"/>
-        <attack name="Scary Face" interval="4040" chance="5" range="6"/>
-        <attack name="Rage" interval="3040" chance="5" range="6"/>
+    
     </attacks>
     <defenses armor="0" defense="0"/>
 <voices interval="5000" chance="60">

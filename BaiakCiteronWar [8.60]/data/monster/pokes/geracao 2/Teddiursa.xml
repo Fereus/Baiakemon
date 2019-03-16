@@ -21,13 +21,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Scratch" interval="2570" chance="31" range="1"/>
-        <attack name="Bite" interval="2584" chance="19" range="1"/>
-        <attack name="Dizzy Punch" interval="2925" chance="18" range="1"/>
-        <attack name="Mega Punch" interval="2630" chance="17" range="1"/>
-        <attack name="Headbutt" interval="2420" chance="20" range="1"/>
-        <attack name="Great Love" interval="3925" chance="26" range="6"/>
-        <attack name="Body Slam" interval="2946" chance="28" range="1"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

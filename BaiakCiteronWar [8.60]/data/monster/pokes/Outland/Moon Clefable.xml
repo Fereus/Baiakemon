@@ -20,15 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Doubleslap" interval="2017" chance="30" range="1"/>
-        <attack name="Sing" interval="10625" chance="5" range="6"/>
-        <attack name="Multislap" interval="2020" chance="30" range="4"/>
-	<attack name="Lovely Kiss" interval="3920" chance="5" range="3"/>
-        <attack name="Meteor Smash" interval="2625" chance="30" range="6"/>
-	<attack name="Healarea" interval="7625" chance="1" range="6"/>
-	<attack name="Great Love" interval="4125" chance="5" range="6"/>
-	<attack name="Focus" interval="4625" chance="10" range="6"/>
-        <attack name="Metronome" interval="2330" chance="10" range="6"/>
+      
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

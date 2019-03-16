@@ -20,12 +20,7 @@
 </flags>
   <attacks>
 		<attack name="Confusion" interval="2617" chance="30" range="6"/>
-        <attack name="Psywave" interval="3040" chance="28" range="5"/>
-        <attack name="Quick Attack" interval="2625" chance="25" range="1"/>
-        <attack name="Psychic" interval="3510" chance="25" range="6"/>
-		<attack name="Stomp" interval="4510" chance="25" range="3"/>
-		<attack name="Psyusion" interval="4610" chance="25" range="4"/>
-		<attack name="Reflect" interval="4510" chance="20" range="6"/>
+       
   </attacks>
   <defenses armor="0" defense="0">
   </defenses>

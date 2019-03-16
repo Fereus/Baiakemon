@@ -21,14 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100">  </attack>
-        <attack name="Rock Throw" interval="2664" chance="30" range="4">
-        </attack>
-        <attack name="Rock Slide" interval="2852" chance="29" range="3">
-        </attack>
-        <attack name="Earthshock" interval="2899" chance="29" range="6">
-        </attack>
-        <attack name="Harden" interval="5625" chance="18" range="6">
-        </attack>
+      
 </attacks>
 
 

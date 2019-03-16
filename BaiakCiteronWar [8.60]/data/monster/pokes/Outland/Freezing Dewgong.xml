@@ -20,14 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Headbutt" interval="2064" chance="30" range="1"/>
-        <attack name="Aqua Tail" interval="2005" chance="30" range="1"/>
-        <attack name="Icy Wind" interval="2052" chance="30" range="5"/>
-	<attack name="Ice Beam" interval="2552" chance="29" range="5"/>
-        <attack name="Ice Shards" interval="2097" chance="60" range="4"/>
-        <attack name="Aurora Beam" interval="3034" chance="15" range="6"/>
-	<attack name="Blizzard" interval="4134" chance="10" range="6"/>
-	<attack name="Rest" interval="5134" chance="2" range="4"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

@@ -21,12 +21,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Doubleslap" interval="2617" chance="30" range="1"/>
-        <attack name="Egg Bomb" interval="2899" chance="29" range="4"/>
-        <attack name="Body Slam" interval="2946" chance="28" range="1"/>
-        <attack name="Great Love" interval="3134" chance="27" range="1"/>
-        <attack name="Selfheal" interval="4920" chance="20" range="6"/>
-        <attack name="Healarea" interval="4920" chance="20" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
   <voices interval="5000" chance="10">

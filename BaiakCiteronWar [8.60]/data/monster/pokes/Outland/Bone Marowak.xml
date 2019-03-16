@@ -21,14 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Headbutt" interval="2011" chance="30" range="1"/>
-        <attack name="Bone Club" interval="1852" chance="30" range="6"/>
-        <attack name="Bonemerang" interval="2246" chance="60" range="6"/>
-        <attack name="Bone Slash" interval="2558" chance="30" range="3"/>
-        <attack name="Rage" interval="3258" chance="25" range="6"/>
-        <attack name="Shockwave" interval="2416" chance="26" range="5"/>
-		<attack name="Earthshock" interval="2516" chance="26" range="5"/>
-		<attack name="Mud Shot" interval="2916" chance="25" range="5"/>
+     
 </attacks>
 
 

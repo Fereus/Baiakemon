@@ -20,14 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Scratch" interval="2052" chance="20" range="1"/>
-        <attack name="Fire Punch" interval="2046" chance="30" range="1"/>
-        <attack name="Ember" interval="2058" chance="60" range="6"/>
-        <attack name="Flamethrower" interval="2040" chance="10" range="4"/>
-        <attack name="Fireball" interval="2093" chance="50" range="6"/>
-        <attack name="Fire Blast" interval="3027" chance="5" range="5"/>
-        <attack name="Magma Storm" interval="4121" chance="5" range="4"/>
-	<attack name="Sunny Day" interval="4121" chance="2" range="4"/>
+        
     </attacks>
     <defenses armor="0" defense="0">
 	</defenses>

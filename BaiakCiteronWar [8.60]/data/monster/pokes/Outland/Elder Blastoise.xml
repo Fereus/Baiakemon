@@ -21,15 +21,7 @@
 
 <attacks>
        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Headbutt" interval="450" chance="5" range="1"/>
-        <attack name="Bubbles" interval="400" chance="60" range="4"/>
-        <attack name="Water Gun" interval="550" chance="6" range="6"/>
-	<attack name="Waterball" interval="450" chance="60" range="4"/>
-        <attack name="Aqua Tail" interval="600" chance="6" range="1"/>
-	<attack name="Bubble Blast" interval="900" chance="40" range="4"/>
-	<attack name="Hydro Cannon" interval="1000" chance="9" range="5"/>
-	<attack name="Skull Bash" interval="800" chance="6" range="6"/>
-	<attack name="Hydropump" interval="1000" chance="10" range="5"/>
+       
 </attacks>
 
 

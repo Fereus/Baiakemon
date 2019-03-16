@@ -20,16 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Body Slam" interval="2152" chance="5" range="1"/>
-        <attack name="Razor Leaf" interval="4058" chance="40" range="7"/>
-        <attack name="Magical Leaf" interval="4093" chance="40" range="7"/>
-        <attack name="Synthesis" interval="3011" chance="1" range="6"/>
-        <attack name="Petal Dance" interval="4057" chance="10" range="7"/>
-        <attack name="Solar Beam" interval="5000" chance="5" range="6"/>
-        <attack name="Sleep Powder" interval="5766" chance="10" range="6"/>
-        <attack name="Reflect" interval="3497" chance="1" range="7"/>
-        <attack name="Poison Powder" interval="2202" chance="25" range="6"/>
-        <attack name="Petal Tornado" interval="2826" chance="5" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

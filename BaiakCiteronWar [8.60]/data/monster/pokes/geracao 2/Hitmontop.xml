@@ -20,10 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Triple Kick" interval="2440" chance="28" range="1"/>
-        <attack name="Mega Kick" interval="2646" chance="28" range="1"/>
-        <attack name="Multi-Kick" interval="3245" chance="24" range="6"/>
-        <attack name="Furious Legs" interval="4510" chance="25" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0">
   </defenses>

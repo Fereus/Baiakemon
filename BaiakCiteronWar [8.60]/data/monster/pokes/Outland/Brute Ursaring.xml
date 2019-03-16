@@ -20,13 +20,7 @@
 </flags>
   <attacks>
 		<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Scratch" interval="2058" chance="60" range="1"/>
-        <attack name="Mega Punch" interval="2040" chance="30" range="1"/>
-        <attack name="Body Slam" interval="2093" chance="30" range="1"/>
-        <attack name="Thrash" interval="3228" chance="30" range="6"/>
-        <attack name="Ground Crusher" interval="3092" chance="10" range="5"/>
-        <attack name="Rest" interval="6330" chance="1" range="6"/>
-        <attack name="Scary Face" interval="3980" chance="5" range="4"/>
+       
        </attacks>
 <defenses armor="0" defense="0">
   </defenses>

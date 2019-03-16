@@ -20,11 +20,8 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-	<attack name="Mega Punch" interval="2028" chance="30" range="1"/>
-        <attack name="Triple Punch" interval="2046" chance="30" range="1"/>
-        <attack name="Multi-Punch" interval="2522" chance="25" range="6"/>
-        <attack name="Ultimate Champion" interval="4356" chance="20" range="6"/>
-                    </attacks>
+
+    </attacks>
     <defenses armor="0" defense="0">
     </defenses>
     <voices interval="5000" chance="10">

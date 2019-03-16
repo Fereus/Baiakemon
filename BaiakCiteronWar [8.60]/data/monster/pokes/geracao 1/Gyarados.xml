@@ -20,14 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Bite" interval="2805" chance="29" range="1"/>
-        <attack name="Aqua Tail" interval="2852" chance="29" range="1"/>
-        <attack name="Waterball" interval="2946" chance="28" range="4"/>
-        <attack name="Twister" interval="2899" chance="29" range="3"/>
-        <attack name="Dragon Breath" interval="3040" chance="28" range="6"/>
-        <attack name="Roar" interval="5604" chance="24" range="4"/>
-        <attack name="Hyper Beam" interval="3510" chance="25" range="6"/>
-        <attack name="Hydropump" interval="3839" chance="23" range="5"/>
+        
     </attacks>
        <defenses armor="0" defense="0">
 	</defenses>

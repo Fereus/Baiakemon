@@ -20,13 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Thunder Fang" interval="2064" chance="30" range="1"/>
-        <attack name="Fire Fang" interval="2099" chance="30" range="1"/>
-        <attack name="Horn Attack" interval="2058" chance="30" range="1"/>
-        <attack name="Rollout" interval="4510" chance="15" range="6"/>
-        <attack name="Scary Face" interval="4722" chance="5" range="6"/>
-	<attack name="Earthquake" interval="7322" chance="15" range="6"/>
-	<attack name="Defense Curl" interval="3222" chance="5" range="6"/>
+      
     </attacks>
     <defenses armor="0" defense="0"/>
 <voices interval="5000" chance="10">

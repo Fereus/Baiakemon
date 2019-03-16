@@ -20,15 +20,7 @@
 </flags>
   <attacks>
 	<attack name="melee" interval="2000" chance="100" range="1" min="-16" max="-20"/>
-	<attack name="Peck" interval="2070" chance="30" range="3"/>
-        <attack name="Feather Dance" interval="2011" chance="30" range="6"/>
-        <attack name="Confuse Ray" interval="3805" chance="5" range="6"/>
-        <attack name="Psy Pulse" interval="2048" chance="30" range="6"/>
-        <attack name="Night Shade" interval="2684" chance="10" range="6"/>
-	<attack name="Psychic" interval="2452" chance="30" range="6"/>
-	<attack name="Tailwind" interval="3452" chance="15" range="6"/>
-        <attack name="Future Sight" interval="5452" chance="10" range="6"/>
-        <attack name="Double Team" interval="3452" chance="0" range="6"/>
+
   </attacks>
   <defenses armor="0" defense="0">
   </defenses>

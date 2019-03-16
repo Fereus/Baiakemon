@@ -20,12 +20,7 @@
 </flags>
   <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Sand Attack" interval="2617" chance="24" range="3"/>
-        <attack name="Quick Attack" interval="2899" chance="29" range="1"/>
-        <attack name="Bite" interval="2946" chance="28" range="1"/>
-        <attack name="Headbutt" interval="2534" chance="27" range="1"/>
-        <attack name="Iron Tail" interval="2920" chance="20" range="1"/>
-        <attack name="Great Love" interval="3920" chance="20" range="6"/>
+       
     </attacks>
   <defenses armor="0" defense="0"/>
 <voices interval="5000" chance="10">

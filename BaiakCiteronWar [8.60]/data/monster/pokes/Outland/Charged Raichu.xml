@@ -20,13 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Thunder Shock" interval="2005" chance="60" range="6"/>
-        <attack name="Agility" interval="5202" chance="20" range="6"/>
-        <attack name="Thunder Wave" interval="2093" chance="30" range="5"/>
-	<attack name="Thunder" interval="2993" chance="25" range="4"/>
-	<attack name="Electric Storm" interval="2993" chance="25" range="5"/>
-	<attack name="Mega Kick" interval="2093" chance="30" range="1"/>
-        <attack name="Thunder Bolt" interval="2134" chance="60" range="6"/>
+      
     </attacks>
     <defenses armor="0" defense="0">
 	</defenses>

@@ -20,14 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="1000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Triple Punch" interval="1758" chance="50" range="1"/>
-        <attack name="Mega Punch" interval="1805" chance="59" range="1"/>
-        <attack name="Karate Chop" interval="1805" chance="59" range="1"/>
-        <attack name="Ground Chop" interval="2852" chance="59" range="4"/>
-        <attack name="Mega Kick" interval="1134" chance="47" range="1"/>
-        <attack name="Fist Machine" interval="1604" chance="34" range="6"/>
-        <attack name="Strafe" interval="2625" chance="18" range="6"/>
-		<attack name="Destroyer Hand" interval="2625" chance="38" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0">
 	</defenses>

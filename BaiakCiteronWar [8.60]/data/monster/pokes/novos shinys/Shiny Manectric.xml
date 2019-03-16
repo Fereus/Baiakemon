@@ -22,13 +22,7 @@
         <attack name="physical" interval="2000" chance="100" range="5" min="-50" max="-100">
             <attribute key="shootEffect" value="eartharrow"/>
         </attack>
-        <attack name="Thunder Shock" interval="2664" chance="30" range="5"/>
-        <attack name="Thunder Wave" interval="2852" chance="29" range="6"/>
-        <attack name="Super Sonic" interval="4625" chance="18" range="5"/>
-        <attack name="Thunder Bolt" interval="2993" chance="28" range="5"/>
-        <attack name="Sonicboom" interval="3040" chance="28" range="5"/>
-        <attack name="Electric Storm" interval="4128" chance="27" range="6"/>
-        <attack name="Thunder" interval="4033" chance="22" range="6"/>
+       
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

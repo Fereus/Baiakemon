@@ -22,15 +22,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Scratch" interval="2758" chance="30" range="1"/>
-        <attack name="Bite" interval="2805" chance="29" range="1"/>
-        <attack name="Mega Punch" interval="3040" chance="28" range="1"/>
-        <attack name="Headbutt" interval="2946" chance="28" range="1"/>
-        <attack name="Body Slam" interval="2993" chance="28" range="1"/>
-        <attack name="Dizzy Punch" interval="3228" chance="27" range="1"/>
-        <attack name="Crusher Stomp" interval="3792" chance="23" range="4"/>
-        <attack name="Rest" interval="6330" chance="17" range="6"/>
-        <attack name="Hyper Beam" interval="3980" chance="22" range="6"/>
+       
 </attacks>
 
 

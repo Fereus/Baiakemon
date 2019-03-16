@@ -20,13 +20,7 @@
     </flags>
     <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-	<attack name="Stomp" interval="3758" chance="1" range="5"/>
-        <attack name="Horn Attack" interval="5000" chance="30" range="1"/>
-        <attack name="Horn Drill" interval="5000" chance="30" range="1"/>
-        <attack name="Rock Drill" interval="3093" chance="30" range="6"/>
-        <attack name="Shockwave" interval="3040" chance="30" range="5"/>
-		<attack name="Rock Throw" interval="1593" chance="70" range="6"/>
-		<attack name="Falling Rocks" interval="3993" chance="20" range="5"/>
+	
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

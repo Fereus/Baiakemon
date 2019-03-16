@@ -21,15 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Absorb" interval="2570" chance="31" range="1"/>
-        <attack name="Psychic" interval="4984" chance="19" range="1"/>
-		<attack name="Confusion" interval="5084" chance="19" range="1"/>
-        <attack name="Bug Bite" interval="2758" chance="30" range="1"/>
-        <attack name="Poison Fang" interval="2852" chance="29" range="1"/>
-        <attack name="Stun Spore" interval="5946" chance="28" range="4"/>
-		<attack name="Poison Powder" interval="4805" chance="29" range="4"/>
-		<attack name="Sleep Powder" interval="5805" chance="18" range="4"/>
-        <attack name="Super Sonic" interval="3202" chance="19" range="3"/>
+      
 </attacks>
 
 

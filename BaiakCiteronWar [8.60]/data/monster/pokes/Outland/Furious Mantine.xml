@@ -20,16 +20,7 @@
 </flags>
   <attacks>
         <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
-        <attack name="Super Sonic" interval="3005" chance="2" range="5"/>
-        <attack name="Headbutt" interval="1700" chance="30" range="1"/>
-        <attack name="Bubbles" interval="1500" chance="80" range="6"/>
-        <attack name="Bubblebeam" interval="1800" chance="50" range="6"/>
-        <attack name="Water Pulse" interval="2300" chance="10" range="5"/>
-        <attack name="Wing Attack" interval="2300" chance="10" range="4"/>
-        <attack name="Air Slash" interval="5000" chance="10" range="4"/>
-        <attack name="Surf" interval="5000" chance="10" range="5"/>
-        <attack name="Hydropump" interval="5000" chance="10" range="5"/>
-        <attack name="Agility" interval= "3000" chance="30" range="5"/>
+      
     </attacks>
     <defenses armor="0" defense="0"/>
 <voices interval="5000" chance="10">

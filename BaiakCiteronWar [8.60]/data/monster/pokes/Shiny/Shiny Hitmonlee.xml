@@ -21,12 +21,7 @@
 
 <attacks>
         <attack name="melee" interval="100" chance="100" range="1" min="-100" max="-200"/>
-        <attack name="Mega Kick" interval="292" chance="27" range="1"/>
-        <attack name="Triple Kick Lee" interval="244" chance="28" range="1"/>
-        <attack name="Multi-Kick" interval="332" chance="26" range="4"/>
-        <attack name="Furious Legs" interval="435" chance="20" range="6"/>
-
-		<attack name="Demon Kicker" interval="100" chance="100" range="1"/>
+      
 </attacks>
 
 

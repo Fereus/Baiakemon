@@ -20,14 +20,7 @@
 </flags>
   <attacks>
 		<attack name="melee" interval="2000" chance="100" range="1" min="-92" max="-136"/>
-		<attack name="Tackle" interval="2040" chance="30" range="1"/>
-		<attack name="Horn Attack" interval="2046" chance="30" range="1"/>
-		<attack name="Bug Bite" interval="2045" chance="30" range="1"/>
-		<attack name="Mega Punch" interval="2010" chance="30" range="1"/>
-		<attack name="Karate Chop" interval="2045" chance="30" range="1"/>
-		<attack name="Take Down" interval="2550" chance="30" range="4"/>
-		<attack name="MegaHorn" interval="4046" chance="30" range="6"/>
-                <attack name="Bug Fighter" interval="4946" chance="8" range="6"/>
+		
   </attacks>
   <defenses armor="0" defense="0">
   </defenses>
