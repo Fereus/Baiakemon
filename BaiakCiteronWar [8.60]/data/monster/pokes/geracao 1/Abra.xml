@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Abra" nameDescription="a abra" race="psychic" experience="204" speed="104" manacost="0">
     <health now="30" max="30"/>
-    <look type="634" head="10" body="30" legs="95" feet="113" corpse="12528"/>
+    <look type="634" head="10" body="30" legs="95" feet="113" corpse="5966"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
