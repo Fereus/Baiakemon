@@ -4602,10 +4602,10 @@
 		<attribute key="duration" value="900" />
 		<attribute key="corpseType" value="blood" />
 	</item>
-	<item id="2813" article="a" name="dead rat">
+	<item id="2813" article="a" name="defeated pokemon">
 		<attribute key="weight" value="6300" />
 		<attribute key="containerSize" value="5" />
-		<attribute key="decayTo" value="2814" />
+		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
 		<attribute key="fluidSource" value="blood" />
