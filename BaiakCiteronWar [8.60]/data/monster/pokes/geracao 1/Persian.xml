@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Persian" nameDescription="a persian" race="normal" experience="316" speed="137" manacost="0">
     <health now="90" max="90"/>
-    <look type="354" head="30" body="50" legs="95" feet="113" corpse="11937"/>
+    <look type="375" head="30" body="50" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -28,11 +28,9 @@
         <voice sentence="PERSIAN!"/>
     </voices>
     <loot>
-        <item id="12187" chance="10000" countmax="2"/>
-        <item id="12186" chance="4000" count="1" countmax="1"/>
-        <item id="11453" chance="1000" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

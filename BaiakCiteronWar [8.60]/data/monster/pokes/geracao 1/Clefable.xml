@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Clefable" nameDescription="a clefable" race="normal" experience="288" speed="117" manacost="0">
     <health now="130" max="130"/>
-    <look type="419" head="60" body="80" legs="95" feet="113" corpse="11854"/>
+    <look type="440" head="60" body="80" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,10 +27,9 @@
         <voice sentence="CLEFABLE!"/>
     </voices>
     <loot>
-        <item id="12179" chance="15000" countmax="5"/>
-        <item id="11453" chance="1000" count="1" countmax="1"/>
+       
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

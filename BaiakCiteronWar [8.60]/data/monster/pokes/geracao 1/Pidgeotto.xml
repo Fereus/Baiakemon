@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Pidgeotto" nameDescription="a pidgeotto" race="flying" experience="196" speed="145" manacost="0">
     <health now="70" max="70"/>
-    <look type="356" head="15" body="30" legs="95" feet="113" corpse="11939"/>
+    <look type="377" head="15" body="30" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -31,6 +31,6 @@
         <item id="11453" chance="1000" count="1" countmax="1"/>
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>
