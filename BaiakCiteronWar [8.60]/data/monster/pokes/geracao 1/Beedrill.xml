@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Beedrill" nameDescription="a beedrill" race="bug" experience="276" speed="148" manacost="0">
     <health now="90" max="90"/>
-    <look type="396" head="25" body="40" legs="95" feet="113" corpse="11844"/>
+    <look type="417" head="25" body="40" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,9 +27,9 @@
         <voice sentence="BEEDRILL!"/>
     </voices>
     <loot>
-        <item id="12171" chance="20000" countmax="5"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Magikarp" nameDescription="a magikarp" race="water" experience="44" speed="107" manacost="0">
     <health now="10" max="10"/>
-    <look type="370" head="1" body="5" legs="95" feet="113" corpse="11911"/>
+    <look type="391" head="1" body="5" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,9 +27,9 @@
         <voice sentence="MAGIKARP!"/>
     </voices>
     <loot>
-        <item id="12334" chance="30000" countmax="1"/>
+      
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

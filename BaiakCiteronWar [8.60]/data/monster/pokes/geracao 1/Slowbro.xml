@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Slowbro" nameDescription="a slowbro" race="water" experience="432" speed="117" manacost="0">
     <health now="150" max="150"/>
-    <look type="392" head="40" body="60" legs="95" feet="113" corpse="11963"/>
+    <look type="413" head="40" body="60" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -28,12 +28,9 @@
         <voice sentence="SLOWBRO!"/>
     </voices>
     <loot>
-        <item id="12197" chance="20000" count="1" countmax="1"/>
-        <item id="12161" chance="10000" countmax="50"/>
-        <item id="12170" chance="8000" count="1" countmax="1"/>
-        <item id="11442" chance="1000" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

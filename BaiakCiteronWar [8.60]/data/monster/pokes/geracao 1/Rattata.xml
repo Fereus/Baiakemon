@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Rattata" nameDescription="a rattata" race="normal" experience="10" speed="127" manacost="0">
     <health now="50" max="50"/>
-    <look type="387" head="1" body="5" legs="95" feet="113" corpse="11953"/>
+    <look type="408" head="1" body="5" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,9 +27,9 @@
         <voice sentence="RATTATA!"/>
     </voices>
     <loot>
-        <item id="12173" chance="15000" countmax="2"/>
+       
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

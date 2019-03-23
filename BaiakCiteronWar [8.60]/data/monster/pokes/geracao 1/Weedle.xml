@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Weedle" nameDescription="a weedle" race="bug" experience="40" speed="110" manacost="0">
     <health now="30" max="30"/>
-    <look type="372" head="1" body="10" legs="95" feet="113" corpse="11983"/>
+    <look type="393" head="1" body="10" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,9 +27,9 @@
         <voice sentence="WEEDLE!"/>
     </voices>
     <loot>
-        <item id="12171" chance="12000" countmax="3"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

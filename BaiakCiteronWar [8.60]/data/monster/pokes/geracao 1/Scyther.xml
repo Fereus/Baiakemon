@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Scyther" nameDescription="a scyther" race="bug" experience="1044" speed="177" manacost="0">
     <health now="110" max="110"/>
-    <look type="1817" head="55" body="80" legs="95" feet="113" corpse="11958"/>
+    <look type="387" head="55" body="80" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -28,11 +28,9 @@
         <voice sentence="SCYTHER!"/>
     </voices>
     <loot>
-        <item id="12171" chance="30000" countmax="5"/>
-        <item id="11448" chance="1500" count="1" countmax="1"/>
-        <item id="12167" chance="8000" countmax="2"/>
+       
     </loot>
     <script>
-        <event name="Spawn"/>
+      
     </script>
 </monster>

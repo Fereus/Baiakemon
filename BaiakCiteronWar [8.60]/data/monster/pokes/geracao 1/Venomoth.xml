@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Venomoth" nameDescription="a venomoth" race="bug" experience="484" speed="130" manacost="0">
     <health now="90" max="90"/>
-    <look type="400" head="40" body="60" legs="95" feet="113" corpse="11975"/>
+    <look type="421" head="40" body="60" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -26,11 +26,9 @@
         <voice sentence="VENOMOTH!"/>
     </voices>
     <loot>
-        <item id="12171" chance="30000" countmax="3"/>
-        <item id="12185" chance="20000" count="1" countmax="1"/>
-        <item id="11443" chance="1000" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

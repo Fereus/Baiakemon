@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Lickitung" nameDescription="a lickitung" race="normal" experience="356" speed="127" manacost="0">
     <health now="130" max="130"/>
-    <look type="362" head="40" body="65" legs="95" feet="113" corpse="11907"/>
+    <look type="383" head="40" body="65" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -28,10 +28,9 @@
         <voice sentence="LICKITUNG!"/>
     </voices>
     <loot>
-        <item id="12209" chance="15000" count="1" countmax="1"/>
-        <item id="11453" chance="1000" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

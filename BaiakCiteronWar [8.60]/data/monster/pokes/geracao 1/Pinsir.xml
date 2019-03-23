@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Pinsir" nameDescription="a pinsir" race="bug" experience="492" speed="125" manacost="0">
     <health now="160" max="160"/>
-    <look type="404" head="35" body="60" legs="95" feet="113" corpse="11942"/>
+    <look type="425" head="35" body="60" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,10 +27,9 @@
         <voice sentence="PINSIR!"/>
     </voices>
     <loot>
-        <item id="12171" chance="30000" countmax="8"/>
-        <item id="11448" chance="1000" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>
