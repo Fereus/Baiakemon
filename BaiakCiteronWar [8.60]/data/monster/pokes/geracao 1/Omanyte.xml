@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Omanyte" nameDescription="a omanyte" race="rock" experience="248" speed="114" manacost="0">
     <health now="50" max="50"/>
-    <look type="443" head="15" body="40" legs="95" feet="113" corpse="11932"/>
+    <look type="464" head="15" body="40" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -28,10 +28,9 @@
         <voice sentence="OMANYTE!"/>
     </voices>
     <loot>
-        <item id="12337" chance="20000" countmax="100"/>
-        <item id="12196" chance="10000" countmax="2"/>
+      
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

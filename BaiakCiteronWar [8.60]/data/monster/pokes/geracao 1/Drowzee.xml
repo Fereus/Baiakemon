@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Drowzee" nameDescription="a drowzee" race="psychic" experience="180" speed="107" manacost="0">
     <health now="80" max="80"/>
-    <look type="445" head="15" body="35" legs="95" feet="113" corpse="11867"/>
+    <look type="466" head="15" body="35" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,9 +27,9 @@
         <voice sentence="DROWZEE!"/>
     </voices>
     <loot>
-        <item id="12194" chance="20000" countmax="3"/>
+       
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

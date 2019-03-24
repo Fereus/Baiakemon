@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Mankey" nameDescription="a mankey" race="fighting" experience="192" speed="117" manacost="0">
     <health now="50" max="50"/>
-    <look type="457" head="10" body="30" legs="95" feet="113" corpse="11915"/>
+    <look type="478" head="10" body="30" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,9 +27,9 @@
         <voice sentence="MANKEY!"/>
     </voices>
     <loot>
-        <item id="12181" chance="10000" countmax="3"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

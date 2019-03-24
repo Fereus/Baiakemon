@@ -30,7 +30,7 @@
         <voice sentence="ABRA!"/>
     </voices>
     <loot>
-        <item id="12194" chance="8000" chance1="129" chancemax="156" count="1" countmax="1"/>
+        
     </loot>
     <script>
        

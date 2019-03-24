@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Tentacruel" nameDescription="a tentacruel" race="water" experience="820" speed="127" manacost="0">
     <health now="170" max="170"/>
-    <look type="459" head="65" body="85" legs="95" feet="113" corpse="11973"/>
+    <look type="480" head="65" body="85" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -26,13 +26,9 @@
         <voice sentence="TENTACRUEL!"/>
     </voices>
     <loot>
-        <item id="12161" chance="30000" countmax="50"/>
-        <item id="12170" chance="20000" count="1" countmax="1"/>
-        <item id="11442" chance="1000" count="1" countmax="1"/>
-        <item id="12188" chance="7000" count="1" countmax="1"/>
-        <item id="11443" chance="1000" count="1" countmax="1"/>
+       
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

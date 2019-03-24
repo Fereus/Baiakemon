@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Charizard" nameDescription="a charizard" race="fire" experience="1604" speed="147" manacost="0">
     <health now="170" max="170"/>
-    <look type="418" head="80" body="90" legs="95" feet="113" corpse="11851"/>
+    <look type="439" head="80" body="90" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,13 +27,9 @@
         <voice sentence="CHARIZARD!"/>
     </voices>
     <loot>
-        <item id="12152" chance="30000" countmax="5"/>
-        <item id="12162" chance="20000" countmax="100"/>
-        <item id="12157" chance="10000" countmax="2"/>
-        <item id="11447" chance="1000" count="1" countmax="1"/>
-        <item id="12159" chance="4000" countmax="2"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

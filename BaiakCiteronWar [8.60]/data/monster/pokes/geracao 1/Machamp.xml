@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Machamp" nameDescription="a machamp" race="fighting" experience="868" speed="127" manacost="0">
     <health now="210" max="210"/>
-    <look type="472" head="65" body="85" legs="95" feet="113" corpse="11908"/>
+    <look type="493" head="65" body="85" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,11 +27,9 @@
         <voice sentence="MACHAMP!"/>
     </voices>
     <loot>
-        <item id="12195" chance="10000" countmax="3"/>
-        <item id="11446" chance="1500" count="1" countmax="1"/>
-        <item id="12337" chance="30000" countmax="100"/>
+       
     </loot>
     <script>
-        <event name="Spawn"/>
+      
     </script>
 </monster>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Meowth" nameDescription="a meowth" race="normal" experience="172" speed="127" manacost="0">
     <health now="40" max="40"/>
-    <look type="456" head="10" body="30" legs="95" feet="113" corpse="11917"/>
+    <look type="477" head="10" body="30" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,10 +27,9 @@
         <voice sentence="MEOWTH!"/>
     </voices>
     <loot>
-        <item id="12187" chance="4000" count="1" countmax="1"/>
-        <item id="12186" chance="2000" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

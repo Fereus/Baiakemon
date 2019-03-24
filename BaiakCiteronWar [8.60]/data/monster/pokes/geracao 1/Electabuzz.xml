@@ -28,13 +28,9 @@
         <voice sentence="ELECTABUZZ!"/>
     </voices>
     <loot>
-        <item id="12198" chance="30000" count="1" countmax="1"/>
-        <item id="12164" chance="30000" countmax="50"/>
-        <item id="12169" chance="5000" count="1" countmax="1"/>
-        <item id="12176" chance="5000" countmax="5"/>
-        <item id="11444" chance="1200" count="1" countmax="1"/>
+       
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

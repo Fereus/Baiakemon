@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Poliwhirl" nameDescription="a poliwhirl" race="water" experience="276" speed="124" manacost="0">
     <health now="100" max="100"/>
-    <look type="563" head="15" body="35" legs="95" feet="113" corpse="11944"/>
+    <look type="584" head="15" body="35" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,12 +27,9 @@
         <voice sentence="POLIWHIRL!"/>
     </voices>
     <loot>
-        <item id="12161" chance="12000" countmax="50"/>
-        <item id="12170" chance="10000" count="1" countmax="1"/>
-        <item id="11442" chance="800" count="1" countmax="1"/>
-        <item id="11446" chance="800" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

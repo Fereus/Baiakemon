@@ -27,11 +27,9 @@
         <voice sentence="GENGAR!"/>
     </voices>
     <loot>
-        <item id="12204" chance="20000" count="1" countmax="1"/>
-        <item id="12194" chance="15000" countmax="5"/>
-        <item id="11450" chance="1200" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

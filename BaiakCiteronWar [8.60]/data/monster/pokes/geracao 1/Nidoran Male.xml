@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Nidoran Male" nameDescription="a nidoran male" race="poison" experience="204" speed="124" manacost="0">
     <health now="50" max="50"/>
-    <look type="417" head="5" body="25" legs="95" feet="113" corpse="11927"/>
+    <look type="438" head="5" body="25" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,9 +27,9 @@
         <voice sentence="NIDORAN MALE!"/>
     </voices>
     <loot>
-        <item id="12157" chance="8000" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

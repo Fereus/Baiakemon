@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Dragonite" nameDescription="a dragonite" race="dragon" experience="1536" speed="107" manacost="0">
     <health now="270" max="270"/>
-    <look type="561" head="90" body="100" legs="95" feet="113" corpse="11865"/>
+    <look type="582" head="90" body="100" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -28,10 +28,9 @@
         <voice sentence="DRAGONITE!"/>
     </voices>
     <loot>
-        <item id="11449" chance="1000" count="1" countmax="1"/>
-        <item id="12159" chance="12000" countmax="3"/>
+       
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

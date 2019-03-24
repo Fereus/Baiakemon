@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Zapdos" nameDescription="a zapdos" race="electric" experience="5128" speed="187" manacost="0">
   <health now="210" max="210"/>
-  <look type="550" head="100" body="100" legs="95" feet="113" corpse="11987"/>
+  <look type="571" head="100" body="100" legs="95" feet="113" corpse="2813"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -33,10 +33,10 @@
  </voices>
 
   <loot>
-    <item id="12150" chance="9999999" count="1" countmax="1"/>	
+  
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

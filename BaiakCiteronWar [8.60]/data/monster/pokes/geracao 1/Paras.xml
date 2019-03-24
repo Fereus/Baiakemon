@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Paras" nameDescription="a paras" race="bug" experience="68" speed="107" manacost="0">
     <health now="40" max="40"/>
-    <look type="432" head="1" body="15" legs="95" feet="113" corpse="11935"/>
+    <look type="453" head="1" body="15" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -28,10 +28,9 @@
         <voice sentence="PARAS!"/>
     </voices>
     <loot>
-        <item id="12183" chance="12000" countmax="2"/>
-		<item id="12171" chance="20000" countmax="4"/>
+      
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

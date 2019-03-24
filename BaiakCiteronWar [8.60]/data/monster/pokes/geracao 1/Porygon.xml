@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Porygon" nameDescription="a porygon" race="normal" experience="512" speed="121" manacost="0">
     <health now="80" max="80"/>
-    <look type="448" head="40" body="60" legs="95" feet="113" corpse="11947"/>
+    <look type="469" head="40" body="60" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -28,13 +28,12 @@
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">
-        <voice sentence="PORYGON!"/>
+      
     </voices>
     <loot>
-        <item id="12194" chance="4000" count="1" countmax="1"/>
-        <item id="11452" chance="100" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>
