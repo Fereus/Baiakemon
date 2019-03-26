@@ -23,8 +23,8 @@
         <attack name="physical" interval="2000" chance="100" range="5" min="-50" max="-100">
             <attribute key="shootEffect" value="eartharrow"/>
         </attack>
-        <attack name="Psybeam" interval="2758" chance="30" range="6"/>
-        <
+     
+        
     </attacks>
     <defenses armor="0" defense="0"/>
     <voices interval="5000" chance="10">

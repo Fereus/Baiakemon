@@ -22,9 +22,9 @@
       
     </attacks>
     <defenses armor="0" defense="0"/>
-    <vobloods interval="5000" chance="10">
-        <voblood sentence="Sceptile!"/>
-    </vobloods>
+    <voices interval="5000" chance="10">
+        <voice sentence="Sceptile!"/>
+    </voices>
     <loot>
         <item id="12163" chance="1000" countmax="100"/>
         <item id="12155" chance="5000" count="1" countmax="2"/>

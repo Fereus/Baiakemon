@@ -29,13 +29,9 @@
 <voice sentence="BELLOSSOM!"/>
  </voices>
     <loot>
-        <item id="12163" chance="10000" countmax="40"/>
-        <item id="12155" chance="5000" count="1" countmax="3"/>
-        <item id="12153" chance="4000" count="1" countmax="4"/>
-        <item id="11441" chance="100" count="1" countmax="2"/>
-        <item id="11443" chance="100" count="1" countmax="3"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

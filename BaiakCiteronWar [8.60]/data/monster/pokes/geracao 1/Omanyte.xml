@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Omanyte" nameDescription="a omanyte" race="rock" experience="248" speed="114" manacost="0">
+<monster name="Omanyte" nameDescription="a omanyte" race="venom" experience="248" speed="114" manacost="0">
     <health now="50" max="50"/>
     <look type="464" head="15" body="40" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

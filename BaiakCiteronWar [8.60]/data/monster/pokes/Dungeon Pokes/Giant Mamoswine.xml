@@ -23,16 +23,15 @@
  </attacks>
    <defenses armor="0" defense="0">
   </defenses>
-  <vobloods interval="5000" chance="10">
-	<voblood sentence="MAAMOOO!"/>
-<voblood sentence="SWIIINE!"/>
-<voblood sentence="Mamoswine!"/>
-  </vobloods>
+  <voices interval="5000" chance="10">
+	<voice sentence="MAAMOOO!"/>
+<voice sentence="SWIIINE!"/>
+<voice sentence="Mamoswine!"/>
+  </voices>
   <loot>
-	<item id="12163" countmax="22" chance="45000"/> -- seeds
-	<item id="11453" countmax="1" chance="3300"/> -- heart stone
+	
   </loot>
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

@@ -32,12 +32,10 @@
  </voices>
 
   <loot>
-  		<item id="12779" chance="50" countmax="50"/>
-		<item id="12778" chance="25" countmax="50"/>
-		<item id="12785" chance="5" countmax="50"/>
+  		
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

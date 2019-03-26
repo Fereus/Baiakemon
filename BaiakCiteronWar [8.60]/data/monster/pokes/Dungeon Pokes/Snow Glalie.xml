@@ -24,15 +24,15 @@
  </attacks>
    <defenses armor="0" defense="0">
   </defenses>
-  <vobloods interval="5000" chance="10">
-	<voblood sentence="lie!"/>
-<voblood sentence="Glai!"/>
-<voblood sentence="Glalie!"/>
-  </vobloods>
+  <voices interval="5000" chance="10">
+	<voice sentence="lie!"/>
+<voice sentence="Glai!"/>
+<voice sentence="Glalie!"/>
+  </voices>
   <loot>
-	<item id="12201" chance="4000" countmax="50"/> -- blood orb
+	
   </loot>
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

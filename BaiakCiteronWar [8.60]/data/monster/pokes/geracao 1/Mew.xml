@@ -22,7 +22,7 @@
         <attack name="physical" interval="2000" chance="100" range="5" min="-50" max="-100">
             <attribute key="shootEffect" value="eartharrow"/>
         </attack>
-        <attack name="Confusion" interval="2617" chance="30" range="6"/>
+        
        
     </attacks>
     <defenses armor="0" defense="0"/>
@@ -30,7 +30,7 @@
         <voice sentence="MEW!"/>
     </voices>
     <loot>
-        <item id="11452" chance="300" count="1" countmax="1"/>
+        
     </loot>
     <script>
       

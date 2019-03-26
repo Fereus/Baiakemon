@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Dialga" nameDescription="a dialga" race="dragon" experience="1536" speed="107" manacost="0">
+<monster name="Dialga" nameDescription="a dialga" race="fire" experience="1536" speed="107" manacost="0">
   <health now="270" max="270"/>
   <look type="1857" head="85" body="100" legs="95" feet="113" corpse="13502"/>
   <targetchange interval="10000" chance="0"/>
@@ -29,10 +29,9 @@
         <voice sentence="DIALGA!"/>
     </voices>
     <loot>
-        <item id="11449" chance="100" count="1" countmax="1"/>
-        <item id="12159" chance="4000" count="1" countmax="1"/>
+       
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

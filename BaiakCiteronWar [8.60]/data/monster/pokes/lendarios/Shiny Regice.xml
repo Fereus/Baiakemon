@@ -20,7 +20,7 @@
 </flags>
   <attacks>
 	<attack name="melee" interval="2000" chance="100" range="1" min="-51" max="-83"/>
-      <attack name="Doubleslap" interval="2852" chance="29" range="1"/>
+    
      
   </attacks>
   <defenses armor="0" defense="0"/>
@@ -32,6 +32,6 @@
   <loot>
   </loot>
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

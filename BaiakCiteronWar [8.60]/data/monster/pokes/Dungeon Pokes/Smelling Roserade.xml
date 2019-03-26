@@ -28,17 +28,15 @@
 <defenses armor="0" defense="0">
 </defenses>
 
- <vobloods interval="5000" chance="10">
- <voblood sentence="Roserade!"/>
- </vobloods>
+ <voices interval="5000" chance="10">
+ <voice sentence="Roserade!"/>
+ </voices>
 
   <loot>
-  		<item id="12779" chance="50" countmax="50"/>
-		<item id="12778" chance="25" countmax="50"/>
-		<item id="12785" chance="5" countmax="50"/>
+  		
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>
