@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Gligar" nameDescription="a gligar" race="flying" experience="0" speed="185" manacost="0">
+<monster name="Gligar" nameDescription="a gligar" race="blood" experience="0" speed="185" manacost="0">
   <health now="40" max="40"/>
   <look type="925" head="52" body="67" legs="95" feet="113" corpse="3293"/>
 	<targetchange interval="10000" chance="0"/>

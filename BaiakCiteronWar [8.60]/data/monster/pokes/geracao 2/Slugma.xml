@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Slugma" nameDescription="a slugma" race="fire2" experience="148" speed="135" manacost="0">
+<monster name="Slugma" nameDescription="a slugma" race="fire" experience="148" speed="135" manacost="0">
     <health now="40" max="40"/>
   <look type="934" head="10" body="30" legs="95" feet="113" corpse="4436"/>
 	<targetchange interval="10000" chance="0"/>

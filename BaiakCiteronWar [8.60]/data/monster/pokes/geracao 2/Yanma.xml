@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Yanma" nameDescription="an yanma" race="bug" experience="0" speed="172" manacost="0">
+<monster name="Yanma" nameDescription="an yanma" race="venom" experience="0" speed="172" manacost="0">
   <health now="40" max="40"/>
   <look type="921" head="23" body="48" legs="95" feet="113" corpse="4759"/>
 	<targetchange interval="10000" chance="0"/>

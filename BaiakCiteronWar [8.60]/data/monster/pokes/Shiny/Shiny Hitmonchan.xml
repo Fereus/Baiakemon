@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Hitmonchan" nameDescription="a Shiny hitmonchan" race="fighting" experience="824" speed="157" manacost="0">
+<monster name="Shiny Hitmonchan" nameDescription="a Shiny hitmonchan" race="blood" experience="824" speed="157" manacost="0">
   <health now="480" max="480"/>
-  <look type="837" head="75" body="80" legs="95" feet="113" corpse="0"/>
+  <look type="858" head="75" body="80" legs="95" feet="113" corpse="2813"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -36,6 +36,6 @@
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

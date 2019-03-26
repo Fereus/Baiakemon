@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Caterpie" nameDescription="a caterpie" race="bug" experience="36" speed="108" manacost="0">
+<monster name="Caterpie" nameDescription="a caterpie" race="blood" experience="36" speed="108" manacost="0">
     <health now="20" max="20"/>
     <look type="404" head="1" body="10" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

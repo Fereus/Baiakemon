@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Gloom" nameDescription="a gloom" race="grass" experience="240" speed="116" manacost="0">
+<monster name="Gloom" nameDescription="a gloom" race="venom" experience="240" speed="116" manacost="0">
     <health now="70" max="70"/>
     <look type="446" head="20" body="40" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Venomoth" nameDescription="a Shiny venomoth" race="bug" experience="484" speed="130" manacost="0">
+<monster name="Shiny Venomoth" nameDescription="a Shiny venomoth" race="venom" experience="484" speed="130" manacost="0">
   <health now="90" max="90"/>
-  <look type="1243" head="35" body="60" legs="95" feet="113" corpse="12468"/>
+  <look type="1265" head="35" body="60" legs="95" feet="113" corpse="2813"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -36,6 +36,6 @@
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Espeon" nameDescription="an espeon" race="psychic" experience="580" speed="162" manacost="0">
+<monster name="Espeon" nameDescription="an espeon" race="blood" experience="580" speed="162" manacost="0">
   <health now="110" max="110"/>
   <look type="919" head="50" body="65" legs="95" feet="113" corpse="3287"/>
 	 <targetchange interval="10000" chance="0"/>

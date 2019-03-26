@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Alakazam" nameDescription="a alakazam" race="psychic" experience="876" speed="117" manacost="0">
+<monster name="Alakazam" nameDescription="a alakazam" race="blood" experience="876" speed="117" manacost="0">
     <health now="120" max="120"/>
-    <look type="590" head="70" body="90" legs="95" feet="113" corpse="2813"/>
+    <look type="1735" head="70" body="90" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="0" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Onix" nameDescription="a Shiny onix" race="rock" experience="428" speed="135" manacost="0">
+<monster name="Shiny Onix" nameDescription="a Shiny onix" race="venom" experience="428" speed="135" manacost="0">
   <health now="170" max="170"/>
   <look type="643" head="60" body="300" legs="95" feet="113" corpse="12582"/>
   <targetchange interval="10000" chance="0"/>

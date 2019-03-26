@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Mr. Mime" nameDescription="a shiny mr. mime" race="psychic" experience="688" speed="117" manacost="0">
+<monster name="Shiny Mr. Mime" nameDescription="a shiny mr. mime" race="blood" experience="688" speed="117" manacost="0">
     <health now="90" max="90"/>
     <look type="1484" head="40" body="65" legs="95" feet="113" corpse="12595"/>
     <targetchange interval="10000" chance="0"/>

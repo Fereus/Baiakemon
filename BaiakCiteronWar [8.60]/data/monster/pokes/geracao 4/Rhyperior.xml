@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Rhyperior" nameDescription="a rhyperior" race="ground" experience="428" speed="135" manacost="0">
+<monster name="Rhyperior" nameDescription="a rhyperior" race="undead" experience="428" speed="135" manacost="0">
   <health now="170" max="170"/>
   <look type="1617" head="60" body="300" legs="95" feet="113" corpse="13517"/>
   <targetchange interval="10000" chance="0"/>

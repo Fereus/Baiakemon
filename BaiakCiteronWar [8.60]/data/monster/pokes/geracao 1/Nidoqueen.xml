@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Nidoqueen" nameDescription="a nidoqueen" race="poison" experience="804" speed="131" manacost="0">
+<monster name="Nidoqueen" nameDescription="a nidoqueen" race="venom" experience="804" speed="131" manacost="0">
     <health now="260" max="260"/>
     <look type="451" head="55" body="75" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

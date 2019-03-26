@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Parasect" nameDescription="a Shiny parasect" race="bug" experience="464" speed="121" manacost="0">
+<monster name="Shiny Parasect" nameDescription="a Shiny parasect" race="venom" experience="464" speed="121" manacost="0">
   <health now="110" max="110"/>
-  <look type="1241" head="55" body="70" legs="95" feet="113" corpse="12466"/>
+  <look type="1263" head="55" body="70" legs="95" feet="113" corpse="2813"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -36,6 +36,6 @@
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Rare Mega Lucario" nameDescription="a rare mega lucario" race="fighting" experience="824" speed="157" manacost="0">
+<monster name="Rare Mega Lucario" nameDescription="a rare mega lucario" race="blood" experience="824" speed="157" manacost="0">
     <health now="190" max="190"/>
     <look type="1916" head="55" body="80" legs="95" feet="113" corpse="13263"/>
     <targetchange interval="10000" chance="0"/>

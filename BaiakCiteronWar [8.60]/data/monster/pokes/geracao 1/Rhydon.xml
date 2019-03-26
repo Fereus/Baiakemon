@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Rhydon" nameDescription="a rhydon" race="ground" experience="712" speed="137" manacost="0">
+<monster name="Rhydon" nameDescription="a rhydon" race="blood" experience="712" speed="137" manacost="0">
     <health now="200" max="200"/>
     <look type="572" head="60" body="80" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

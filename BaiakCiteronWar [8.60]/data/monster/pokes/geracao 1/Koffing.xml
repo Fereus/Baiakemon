@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Koffing" nameDescription="a koffing" race="poison" experience="168" speed="115" manacost="0">
+<monster name="Koffing" nameDescription="a koffing" race="venom" experience="168" speed="115" manacost="0">
     <health now="50" max="50"/>
-    <look type="579" head="10" body="30" legs="95" feet="113" corpse="11904"/>
+    <look type="600" head="10" body="30" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,9 +27,9 @@
         <voice sentence="KOFFING!"/>
     </voices>
     <loot>
-        <item id="12165" chance="15000" countmax="70"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+        
     </script>
 </monster>

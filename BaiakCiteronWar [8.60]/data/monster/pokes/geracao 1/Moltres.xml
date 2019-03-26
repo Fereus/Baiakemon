@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Moltres" nameDescription="a moltres" race="fire" experience="5244" speed="167" manacost="0">
     <health now="220" max="220"/>
-    <look type="616" head="100" body="100" legs="95" feet="113" corpse="11921"/>
+    <look type="637" head="100" body="100" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,12 +27,12 @@
         <voice sentence="MOLTRES!"/>
     </voices>
     <loot>
-        <item id="12151" chance="990000" count="1" countmax="1"/>
+        
     </loot>
     <script>
         <event name="Spawn"/>
     </script>
 <script>
-<event name="removewall"/>
+
 </script>
 </monster>

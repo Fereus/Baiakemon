@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Torterra" nameDescription="a Torterra" race="grass" experience="1504" speed="136" manacost="0">
+<monster name="Torterra" nameDescription="a Torterra" race="venom" experience="1504" speed="136" manacost="0">
     <health now="220" max="220"/>
     <look type="1607" head="80" body="85" legs="95" feet="113" corpse="13269"/>
     <targetchange interval="10000" chance="0"/>

@@ -59,7 +59,7 @@ function getMasterTarget(cid)
 if isCreature(cid) and getPlayerStorageValue(cid, 21101) ~= -1 then
    return getPlayerStorageValue(cid, 21101)     --alterado v1.6
 end
-    if isSummon(cid) then
+    if isPlayer(cid) then
 	    return getCreatureTarget(getCreatureMaster(cid))
 	else
 	    return getCreatureTarget(cid)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Sneasel" nameDescription="a sneasel" race="dark" experience="0" speed="218" manacost="0">
+<monster name="Sneasel" nameDescription="a sneasel" race="undead" experience="0" speed="218" manacost="0">
   <health now="40" max="40"/>
   <look type="917" head="41" body="57" legs="95" feet="113" corpse="4439"/>
 	<targetchange interval="10000" chance="0"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Muk" nameDescription="a muk" race="poison" experience="372" speed="107" manacost="0">
+<monster name="Muk" nameDescription="a muk" race="venom" experience="372" speed="107" manacost="0">
     <health now="120" max="120"/>
-    <look type="419" head="30" body="55" legs="95" feet="113" corpse="2813"/>
+    <look type="1811" head="30" body="55" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>

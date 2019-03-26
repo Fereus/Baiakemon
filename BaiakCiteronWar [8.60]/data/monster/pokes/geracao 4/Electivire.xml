@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Electivire" nameDescription="a Electivire" race="electric" experience="1084" speed="137" manacost="0">
+<monster name="Electivire" nameDescription="a Electivire" race="blood" experience="1084" speed="137" manacost="0">
     <health now="130" max="130"/>
     <look type="1539" head="55" body="80" legs="95" feet="113" corpse="13201"/>
     <targetchange interval="10000" chance="0"/>

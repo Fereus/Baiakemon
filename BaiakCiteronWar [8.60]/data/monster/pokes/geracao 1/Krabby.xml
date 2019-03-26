@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Krabby" nameDescription="a krabby" race="water" experience="84" speed="107" manacost="0">
+<monster name="Krabby" nameDescription="a krabby" race="blood" experience="84" speed="107" manacost="0">
     <health now="40" max="40"/>
     <look type="484" head="1" body="15" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

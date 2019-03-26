@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Ho-oh" nameDescription="a ho-oh" race="water" experience="820" speed="127" manacost="0">
+<monster name="Ho-oh" nameDescription="a ho-oh" race="blood" experience="820" speed="127" manacost="0">
     <health now="170" max="170"/>
     <look type="955" head="90" body="100" legs="95" feet="113" corpse="3297"/>
     <targetchange interval="10000" chance="0"/>

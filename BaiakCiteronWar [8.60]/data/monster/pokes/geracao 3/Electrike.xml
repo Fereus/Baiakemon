@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Electrike" nameDescription="a Electrike" race="electric" experience="276" speed="132" manacost="0">
+<monster name="Electrike" nameDescription="a Electrike" race="blood" experience="276" speed="132" manacost="0">
   <health now="50" max="50"/>
   <look type="1635" head="25" body="45" legs="95" feet="113" corpse="12865"/>
     <targetchange interval="10000" chance="0"/>

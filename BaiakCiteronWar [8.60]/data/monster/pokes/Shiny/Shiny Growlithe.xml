@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Shiny Growlithe" nameDescription="a shiny growlithe" race="fire" experience="212" speed="137" manacost="0">
   <health now="40" max="40"/>
-  <look type="1252" head="15" body="30" legs="95" feet="113" corpse="12477"/>
+  <look type="1274" head="15" body="30" legs="95" feet="113" corpse="2813"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -36,6 +36,6 @@
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

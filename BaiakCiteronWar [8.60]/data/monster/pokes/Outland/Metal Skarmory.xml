@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Metal Skarmory" nameDescription="a metal skarmory" race="steel" experience="4200" speed="235" manacost="0">
+<monster name="Metal Skarmory" nameDescription="a metal skarmory" race="undead" experience="4200" speed="235" manacost="0">
   <health now="315" max="315"/>
   <look type="936" head="60" body="77" legs="95" feet="113" corpse="5964"/>
 	<targetchange interval="10000" chance="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Scyther" nameDescription="a Shiny scyther" race="bug" experience="1044" speed="177" manacost="0">
+<monster name="Shiny Scyther" nameDescription="a Shiny scyther" race="venom" experience="1044" speed="177" manacost="0">
   <health now="110" max="110"/>
   <look type="1892" head="75" body="85" legs="95" feet="113" corpse="12543"/>
   <targetchange interval="10000" chance="0"/>

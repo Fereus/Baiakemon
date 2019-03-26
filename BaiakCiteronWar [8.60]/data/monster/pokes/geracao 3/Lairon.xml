@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Lairon" nameDescription="a Lairon" race="rock" experience="428" speed="135" manacost="0">
+<monster name="Lairon" nameDescription="a Lairon" race="venom" experience="428" speed="135" manacost="0">
   <health now="170" max="170"/>
   <look type="1828" head="60" body="80" legs="95" feet="113" corpse="13535"/>
   <targetchange interval="10000" chance="0"/>

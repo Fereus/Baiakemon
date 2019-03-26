@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Regice" nameDescription="a Regice" race="ice" experience="5000" speed="300" manacost="0">
+<monster name="Regice" nameDescription="a Regice" race="blood" experience="5000" speed="300" manacost="0">
   <health now="15000000" max="15000000"/>
   <look type="1696" head="120" body="125" legs="95" feet="113" corpse="13533"/>
 	<targetchange interval="10000" chance="0"/>

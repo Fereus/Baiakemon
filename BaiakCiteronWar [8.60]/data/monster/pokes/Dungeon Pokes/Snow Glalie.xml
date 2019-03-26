@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Snow Glalie" nameDescription="a glalie" race="ice" experience="4787" speed="250" manacost="0">
+<monster name="Snow Glalie" nameDescription="a glalie" race="blood" experience="4787" speed="250" manacost="0">
   <health now="40" max="40"/>
   <look type="1758" head="55" body="77" legs="95" feet="113" corpse="12749"/>
 	<targetchange interval="10000" chance="0"/>
@@ -24,13 +24,13 @@
  </attacks>
    <defenses armor="0" defense="0">
   </defenses>
-  <voices interval="5000" chance="10">
-	<voice sentence="lie!"/>
-<voice sentence="Glai!"/>
-<voice sentence="Glalie!"/>
-  </voices>
+  <vobloods interval="5000" chance="10">
+	<voblood sentence="lie!"/>
+<voblood sentence="Glai!"/>
+<voblood sentence="Glalie!"/>
+  </vobloods>
   <loot>
-	<item id="12201" chance="4000" countmax="50"/> -- ice orb
+	<item id="12201" chance="4000" countmax="50"/> -- blood orb
   </loot>
 <script>
 <event name="Spawn"/>

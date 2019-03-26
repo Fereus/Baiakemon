@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Prinplup" nameDescription="a Prinplup" race="water" experience="620" speed="124" manacost="0">
+<monster name="Prinplup" nameDescription="a Prinplup" race="blood" experience="620" speed="124" manacost="0">
     <health now="130" max="130"/>
     <look type="1560" head="35" body="50" legs="95" feet="113" corpse="13264"/>
     <targetchange interval="10000" chance="0"/>

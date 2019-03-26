@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Primeape" nameDescription="a primeape" race="fighting" experience="484" speed="132" manacost="0">
+<monster name="Primeape" nameDescription="a primeape" race="blood" experience="484" speed="132" manacost="0">
     <health now="160" max="160"/>
     <look type="475" head="45" body="65" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

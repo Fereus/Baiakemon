@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Golbat" nameDescription="a Shiny golbat" race="poison" experience="284" speed="135" manacost="0">
+<monster name="Shiny Golbat" nameDescription="a Shiny golbat" race="venom" experience="284" speed="135" manacost="0">
   <health now="90" max="90"/>
-  <look type="1236" head="40" body="60" legs="95" feet="113" corpse="12461"/>
+  <look type="1258" head="40" body="60" legs="95" feet="113" corpse="2813"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -36,6 +36,6 @@
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

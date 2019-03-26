@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Zubat" nameDescription="a Shiny zubat" race="poison" experience="88" speed="117" manacost="0">
+<monster name="Shiny Zubat" nameDescription="a Shiny zubat" race="venom" experience="88" speed="117" manacost="0">
   <health now="30" max="30"/>
-  <look type="1235" head="15" body="30" legs="95" feet="113" corpse="12460"/>
+  <look type="1257" head="15" body="30" legs="95" feet="113" corpse="2813"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -36,6 +36,6 @@
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

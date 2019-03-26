@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Ditto" nameDescription="a ditto" race="normal" experience="400" speed="123" manacost="0">
+<monster name="Ditto" nameDescription="a ditto" race="blood" experience="400" speed="123" manacost="0">
   <health now="80" max="80"/>
   <look type="400" head="35" body="60" legs="95" feet="113" corpse="2813"/>
   <targetchange interval="10000" chance="0"/>

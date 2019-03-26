@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Blastoise" nameDescription="a Shiny blastoise" race="water" experience="1584" speed="127" manacost="0">
+<monster name="Shiny Blastoise" nameDescription="a Shiny blastoise" race="blood" experience="1584" speed="127" manacost="0">
   <health now="280" max="280"/>
-  <look type="1008" head="80" body="90" legs="95" feet="113" corpse="12583"/>
+  <look type="1030" head="80" body="90" legs="95" feet="113" corpse="1987"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -36,6 +36,6 @@
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

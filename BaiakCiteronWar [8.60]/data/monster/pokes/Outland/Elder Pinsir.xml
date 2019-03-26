@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Elder Pinsir" nameDescription="a elder pinsir" race="bug" experience="4000" speed="125" manacost="0">
+<monster name="Elder Pinsir" nameDescription="a elder pinsir" race="venom" experience="4000" speed="125" manacost="0">
   <health now="220" max="220"/>
   <look type="1321" head="40" body="60" legs="95" feet="113" corpse="5964"/>
   <targetchange interval="10000" chance="0"/>

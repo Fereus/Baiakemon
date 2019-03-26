@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Elder Electabuzz" nameDescription="a Elder electabuzz" race="electric" experience="1084" speed="137" manacost="0">
+<monster name="Elder Electabuzz" nameDescription="a Elder electabuzz" race="blood" experience="1084" speed="137" manacost="0">
   <health now="130" max="130"/>
   <look type="1319" head="70" body="250" legs="95" feet="113" corpse="5964"/>
   <targetchange interval="10000" chance="0"/>

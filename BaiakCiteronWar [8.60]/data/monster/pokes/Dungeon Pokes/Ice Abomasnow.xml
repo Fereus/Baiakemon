@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Ice Abomasnow" nameDescription="a Abomasnow" race="grass" experience="4787" speed="203" manacost="0">
+<monster name="blood Abomasnow" nameDescription="a Abomasnow" race="venom" experience="4787" speed="203" manacost="0">
   <health now="40" max="40"/>
   <look type="1583" head="52" body="77" legs="95" feet="113" corpse="261"/>
 	<targetchange interval="10000" chance="0"/>
@@ -23,9 +23,9 @@
  </attacks>
    <defenses armor="0" defense="0">
   </defenses>
-  <voices interval="5000" chance="10">
-	<voice sentence="Abomasnow!"/>
-  </voices>
+  <vobloods interval="5000" chance="10">
+	<voblood sentence="Abomasnow!"/>
+  </vobloods>
   <loot>
 	<item id="12163" countmax="22" chance="45000"/> -- seeds
 	<item id="11453" countmax="1" chance="3300"/> -- heart stone

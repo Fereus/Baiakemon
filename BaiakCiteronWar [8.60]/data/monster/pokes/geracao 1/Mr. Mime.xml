@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Mr. Mime" nameDescription="a mr. mime" race="psychic" experience="688" speed="117" manacost="0">
+<monster name="Mr. Mime" nameDescription="a mr. mime" race="blood" experience="688" speed="117" manacost="0">
     <health now="90" max="90"/>
-    <look type="597" head="40" body="65" legs="95" feet="113" corpse="11922"/>
+    <look type="618" head="40" body="65" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -28,10 +28,9 @@
         <voice sentence="MR. MIME!"/>
     </voices>
     <loot>
-        <item id="12166" chance="6000" count="1" countmax="1"/>
-        <item id="11452" chance="1000" count="1" countmax="1"/>
+      
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

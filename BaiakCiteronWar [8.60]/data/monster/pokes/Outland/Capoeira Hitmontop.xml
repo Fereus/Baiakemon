@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Capoeira Hitmontop" nameDescription="a capoeira hitmontop" race="fighting" experience="4000" speed="157" manacost="0">
+<monster name="Capoeira Hitmontop" nameDescription="a capoeira hitmontop" race="blood" experience="4000" speed="157" manacost="0">
     <health now="300" max="300"/>
     <look type="952" head="55" body="80" legs="95" feet="113" corpse="5964"/>
     <targetchange interval="10000" chance="0"/>

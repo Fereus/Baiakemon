@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Brave Sceptile" nameDescription="a sceptile" race="grass" experience="4851" speed="136" manacost="0">
+<monster name="Brave Sceptile" nameDescription="a sceptile" race="venom" experience="4851" speed="136" manacost="0">
     <health now="220" max="220"/>
     <look type="1702" head="80" body="90" legs="95" feet="113" corpse="588"/>
     <targetchange interval="10000" chance="0"/>
@@ -22,9 +22,9 @@
       
     </attacks>
     <defenses armor="0" defense="0"/>
-    <voices interval="5000" chance="10">
-        <voice sentence="Sceptile!"/>
-    </voices>
+    <vobloods interval="5000" chance="10">
+        <voblood sentence="Sceptile!"/>
+    </vobloods>
     <loot>
         <item id="12163" chance="1000" countmax="100"/>
         <item id="12155" chance="5000" count="1" countmax="2"/>

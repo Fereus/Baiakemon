@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Singer Wigglytuff" nameDescription="a Singer wigglytuff" race="normal" experience="4000" speed="117" manacost="0">
+<monster name="Singer Wigglytuff" nameDescription="a Singer wigglytuff" race="blood" experience="4000" speed="117" manacost="0">
     <health now="290" max="290"/>
     <look type="415" head="60" body="80" legs="95" feet="113" corpse="5964"/>
     <targetchange interval="10000" chance="0"/>

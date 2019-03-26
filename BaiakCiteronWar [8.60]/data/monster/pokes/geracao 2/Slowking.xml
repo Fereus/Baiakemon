@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Slowking" nameDescription="a slowking" race="psychic" speed="117" manacost="0">
+<monster name="Slowking" nameDescription="a slowking" race="blood" speed="117" manacost="0">
     <health now="150" max="150"/>
   <look type="916" head="40" body="60" legs="95" feet="113" corpse="4435"/>
 	<targetchange interval="10000" chance="0"/>

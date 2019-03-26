@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Kingdra" nameDescription="a kingdra" race="water" experience="828" speed="134" manacost="0">
+<monster name="Kingdra" nameDescription="a kingdra" race="blood" experience="828" speed="134" manacost="0">
     <health now="150" max="150"/>
   <look type="944" head="60" body="78" legs="95" feet="113" corpse="3559"/>
 	<targetchange interval="10000" chance="0"/>

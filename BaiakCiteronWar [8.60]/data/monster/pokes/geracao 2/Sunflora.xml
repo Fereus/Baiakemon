@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Sunflora" nameDescription="a sunflora" race="grass" experience="436" speed="114" manacost="0">
+<monster name="Sunflora" nameDescription="a sunflora" race="venom" experience="436" speed="114" manacost="0">
     <health now="80" max="80"/>
   <look type="896" head="35" body="60" legs="95" feet="113" corpse="4446"/>
 	<targetchange interval="10000" chance="0"/>

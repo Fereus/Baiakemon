@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Electabuzz" nameDescription="a Shiny electabuzz" race="electric" experience="1084" speed="137" manacost="0">
+<monster name="Shiny Electabuzz" nameDescription="a Shiny electabuzz" race="blood" experience="1084" speed="137" manacost="0">
   <health now="130" max="130"/>
   <look type="1319" head="70" body="85" legs="95" feet="113" corpse="12545"/>
   <targetchange interval="10000" chance="0"/>

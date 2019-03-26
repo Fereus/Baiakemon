@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Brave Piloswine" nameDescription="a piloswine" race="ice" experience="4748" speed="203" manacost="0">
+<monster name="Brave Piloswine" nameDescription="a piloswine" race="blood" experience="4748" speed="203" manacost="0">
   <health now="40" max="40"/>
   <look type="928" head="52" body="77" legs="95" feet="113" corpse="3585"/>
 	<targetchange interval="10000" chance="0"/>
@@ -25,11 +25,11 @@
  </attacks>
    <defenses armor="0" defense="0">
   </defenses>
-  <voices interval="5000" chance="10">
-	<voice sentence="PILOOO!"/>
-<voice sentence="SWIIINE!"/>
-<voice sentence="PILOSWINE!"/>
-  </voices>
+  <vobloods interval="5000" chance="10">
+	<voblood sentence="PILOOO!"/>
+<voblood sentence="SWIIINE!"/>
+<voblood sentence="PILOSWINE!"/>
+  </vobloods>
   <loot>
 	<item id="12163" countmax="22" chance="45000"/> -- seeds
 	<item id="11453" countmax="1" chance="3300"/> -- heart stone

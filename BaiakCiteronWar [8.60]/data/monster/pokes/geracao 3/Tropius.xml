@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Tropius" nameDescription="a tropius" race="grass" experience="0" speed="160" manacost="0">
+<monster name="Tropius" nameDescription="a tropius" race="venom" experience="0" speed="160" manacost="0">
   <health now="40" max="40"/>
   <look type="1651" head="90" body="105" legs="95" feet="113" corpse="12915"/>
 	<targetchange interval="10000" chance="0"/>

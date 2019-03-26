@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Eevee" nameDescription="a eevee" race="normal" experience="272" speed="130" manacost="0">
+<monster name="Eevee" nameDescription="a eevee" race="blood" experience="272" speed="130" manacost="0">
   <health now="50" max="50"/>
   <look type="474" head="15" body="30" legs="95" feet="113" corpse="2813"/>
 	<targetchange interval="10000" chance="0"/>

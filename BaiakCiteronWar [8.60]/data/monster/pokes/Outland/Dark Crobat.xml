@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Dark Crobat" nameDescription="a Dark crobat" race="poison" experience="4000" speed="155" manacost="0">
+<monster name="Dark Crobat" nameDescription="a Dark crobat" race="venom" experience="4000" speed="155" manacost="0">
   <health now="330" max="330"/>
   <look type="1454" head="55" body="68" legs="95" feet="113" corpse="5964"/>
 	<strategy attack="100" defense="0"/>

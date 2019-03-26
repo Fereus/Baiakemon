@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Evil Cloyster" nameDescription="a evil cloyster" race="water" experience="4000" speed="117" manacost="0">
+<monster name="Evil Cloyster" nameDescription="a evil cloyster" race="blood" experience="4000" speed="117" manacost="0">
     <health now="310" max="310"/>
     <look type="423" head="60" body="80" legs="95" feet="113" corpse="5964"/>
     <targetchange interval="10000" chance="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Gastly" nameDescription="a gastly" race="ghost" experience="160" speed="117" manacost="0">
+<monster name="Gastly" nameDescription="a gastly" race="undead" experience="160" speed="117" manacost="0">
     <health now="40" max="40"/>
     <look type="420" head="15" body="35" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

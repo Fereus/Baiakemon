@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Psyduck" nameDescription="a psyduck" race="water" experience="152" speed="108" manacost="0">
+<monster name="Psyduck" nameDescription="a psyduck" race="blood" experience="152" speed="108" manacost="0">
     <health now="40" max="40"/>
     <look type="472" head="10" body="30" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

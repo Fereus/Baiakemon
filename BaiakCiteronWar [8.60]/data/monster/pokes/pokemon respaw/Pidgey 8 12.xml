@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Pidgey" nameDescription="a pidgey" race="flying" experience="84" speed="127" manacost="0">
+<monster name="Pidgey" nameDescription="a pidgey" race="blood" experience="84" speed="127" manacost="0">
   <health now="30" max="30"/>
   <look type="381" head="8" body="12" legs="95" feet="113" corpse="11940"/>
   <targetchange interval="10000" chance="0"/>

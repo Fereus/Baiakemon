@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Larvitar" nameDescription="a larvitar" race="ground" experience="0" speed="190" manacost="0">
+<monster name="Larvitar" nameDescription="a larvitar" race="blood" experience="0" speed="190" manacost="0">
   <health now="40" max="40"/>
   <look type="938" head="30" body="40" legs="95" feet="113" corpse="3561"/>
 	<targetchange interval="10000" chance="0"/>

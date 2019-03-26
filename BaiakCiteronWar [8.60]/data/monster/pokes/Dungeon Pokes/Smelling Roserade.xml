@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Smelling Roserade" nameDescription="a Roserade" race="grass" experience="4987" speed="124" manacost="0">
+<monster name="Smelling Roserade" nameDescription="a Roserade" race="venom" experience="4987" speed="124" manacost="0">
   <health now="80" max="80"/>
   <look type="1773" head="67" body="87" legs="95" feet="113" corpse="591"/>
   <targetchange interval="10000" chance="0"/>
@@ -28,9 +28,9 @@
 <defenses armor="0" defense="0">
 </defenses>
 
- <voices interval="5000" chance="10">
- <voice sentence="Roserade!"/>
- </voices>
+ <vobloods interval="5000" chance="10">
+ <voblood sentence="Roserade!"/>
+ </vobloods>
 
   <loot>
   		<item id="12779" chance="50" countmax="50"/>

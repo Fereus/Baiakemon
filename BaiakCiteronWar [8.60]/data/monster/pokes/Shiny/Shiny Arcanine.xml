@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Shiny Arcanine" nameDescription="a Shiny arcanine" race="fire" experience="752" speed="207" manacost="0">
   <health now="160" max="160"/>
-  <look type="1253" head="125" body="150" legs="95" feet="113" corpse="12478"/>
+  <look type="1275" head="125" body="150" legs="95" feet="113" corpse="2813"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -36,6 +36,6 @@
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

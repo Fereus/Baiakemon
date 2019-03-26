@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Enigmatic Girafarig" nameDescription="a Enigmatic girafarig" race="psychic" experience="4100" speed="192" manacost="0">
+<monster name="Enigmatic Girafarig" nameDescription="a Enigmatic girafarig" race="blood" experience="4100" speed="192" manacost="0">
   <health now="290" max="290"/>
   <look type="904" head="61" body="77" legs="95" feet="113" corpse="5964"/>
 	<targetchange interval="10000" chance="0"/>

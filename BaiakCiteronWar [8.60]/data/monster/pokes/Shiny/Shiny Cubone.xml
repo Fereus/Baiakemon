@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Cubone" nameDescription="a Shiny cubone" race="ground" experience="168" speed="117" manacost="0">
+<monster name="Shiny Cubone" nameDescription="a Shiny cubone" race="blood" experience="168" speed="117" manacost="0">
   <health now="50" max="50"/>
   <look type="1298" head="15" body="25" legs="95" feet="113" corpse="12524"/>
   <targetchange interval="10000" chance="0"/>

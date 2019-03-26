@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Tentacool" nameDescription="a Shiny tentacool" race="water" experience="204" speed="114" manacost="0">
+<monster name="Shiny Tentacool" nameDescription="a Shiny tentacool" race="blood" experience="204" speed="114" manacost="0">
   <health now="40" max="40"/>
-  <look type="1266" head="15" body="35" legs="95" feet="113" corpse="12491"/>
+  <look type="1288" head="15" body="35" legs="95" feet="113" corpse="2813"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -36,6 +36,6 @@
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

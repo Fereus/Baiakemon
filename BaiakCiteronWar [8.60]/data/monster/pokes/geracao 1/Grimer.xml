@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Grimer" nameDescription="a grimer" race="poison" experience="168" speed="107" manacost="0">
+<monster name="Grimer" nameDescription="a grimer" race="venom" experience="168" speed="107" manacost="0">
     <health now="50" max="50"/>
     <look type="586" head="10" body="30" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Bone Marowak" nameDescription="a Bone marowak" race="ground" experience="372" speed="127" manacost="0">
+<monster name="Bone Marowak" nameDescription="a Bone marowak" race="blood" experience="372" speed="127" manacost="0">
   <health now="140" max="140"/>
   <look type="548" head="45" body="150" legs="95" feet="113" corpse="5964"/>
   <targetchange interval="10000" chance="0"/>

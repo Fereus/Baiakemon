@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Tribal Scyther" nameDescription="a ancient scyther" race="bug" experience="4500" speed="177" manacost="0">
+<monster name="Tribal Scyther" nameDescription="a ancient scyther" race="venom" experience="4500" speed="177" manacost="0">
   <health now="345" max="345"/>
   <look type="1317" head="75" body="85" legs="95" feet="113" corpse="5964"/>
   <targetchange interval="10000" chance="0"/>

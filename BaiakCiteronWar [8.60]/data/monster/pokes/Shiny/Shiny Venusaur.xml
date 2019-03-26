@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Venusaur" nameDescription="a Shiny venusaur" race="grass" experience="1504" speed="136" manacost="0">
+<monster name="Shiny Venusaur" nameDescription="a Shiny venusaur" race="venom" experience="1504" speed="136" manacost="0">
   <health now="220" max="220"/>
-  <look type="1197" head="80" body="90" legs="95" feet="113" corpse="12422"/>
+  <look type="1219" head="80" body="90" legs="95" feet="113" corpse="1987"/>
   <targetchange interval="10000" chance="0"/>
   <strategy attack="100" defense="0"/>
 <flags>
@@ -36,6 +36,6 @@
   </loot>
 
 <script>
-<event name="Spawn"/>
+
 </script>
 </monster>

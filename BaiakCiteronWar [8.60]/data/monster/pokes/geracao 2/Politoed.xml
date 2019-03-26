@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Politoed" nameDescription="a politoed" race="water" experience="696" speed="130" manacost="0">
+<monster name="Politoed" nameDescription="a politoed" race="blood" experience="696" speed="130" manacost="0">
     <health now="190" max="190"/>
   <look type="901" head="60" body="80" legs="95" feet="113" corpse="4422"/>
 	<targetchange interval="10000" chance="0"/>

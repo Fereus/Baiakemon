@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Steelix" nameDescription="a steelix" race="steel" experience="0" speed="199" manacost="0">
+<monster name="Steelix" nameDescription="a steelix" race="undead" experience="0" speed="199" manacost="0">
   <health now="40" max="40"/>
   <look type="911" head="70" body="88" legs="95" feet="113" corpse="4443"/>
 	<targetchange interval="10000" chance="0"/>

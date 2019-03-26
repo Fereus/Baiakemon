@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Xatu" nameDescription="a xatu" race="psychic" experience="0" speed="167" manacost="0">
+<monster name="Xatu" nameDescription="a xatu" race="undead" experience="0" speed="167" manacost="0">
   <health now="40" max="40"/>
   <look type="889" head="33" body="57" legs="95" feet="113" corpse="0"/>
 	<targetchange interval="10000" chance="0"/>

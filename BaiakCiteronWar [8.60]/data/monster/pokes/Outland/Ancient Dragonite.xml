@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Ancient Dragonite" nameDescription="a ancient dragonite" race="dragon" experience="4200" speed="107" manacost="0">
+<monster name="Ancient Dragonite" nameDescription="a ancient dragonite" race="blood" experience="4200" speed="107" manacost="0">
     <health now="330" max="330"/>
     <look type="561" head="90" body="120" legs="95" feet="113" corpse="5964"/>
     <targetchange interval="10000" chance="0"/>

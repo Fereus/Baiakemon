@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Articuno" nameDescription="a articuno" race="ice" experience="4964" speed="147" manacost="0">
+<monster name="Articuno" nameDescription="a articuno" race="blood" experience="4964" speed="147" manacost="0">
     <health now="280" max="280"/>
-    <look type="634" head="80" body="90" legs="95" feet="113" corpse="11843"/>
+    <look type="655" head="80" body="90" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>
@@ -27,9 +27,9 @@
         <voice sentence="ARTICUNO!"/>
     </voices>
     <loot>
-        <item id="12149" chance="9990000" count="1" countmax="1"/>
+        
     </loot>
     <script>
-        <event name="Spawn"/>
+       
     </script>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Aron" nameDescription="a Aron" race="ground" experience="152" speed="107" manacost="0">
+<monster name="Aron" nameDescription="a Aron" race="undead" experience="152" speed="107" manacost="0">
   <health now="60" max="60"/>
   <look type="1793" head="25" body="45" legs="95" feet="113" corpse="13536"/>
   <targetchange interval="10000" chance="0"/>

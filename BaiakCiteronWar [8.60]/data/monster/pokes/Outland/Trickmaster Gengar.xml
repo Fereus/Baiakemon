@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Trickmaster Gengar" nameDescription="a scary gengar" race="ghost" experience="4100" speed="227" manacost="0">
+<monster name="Trickmaster Gengar" nameDescription="a scary gengar" race="undead" experience="4100" speed="227" manacost="0">
     <health now="320" max="320"/>
     <look type="595" head="65" body="90" legs="95" feet="113" corpse="5964"/>
     <targetchange interval="10000" chance="0"/>

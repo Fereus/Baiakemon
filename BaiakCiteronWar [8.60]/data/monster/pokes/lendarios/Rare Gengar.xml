@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Rare Mega Gengar" nameDescription="a rare mega gengar" race="ghost" experience="976" speed="127" manacost="0">
+<monster name="Rare Mega Gengar" nameDescription="a rare mega gengar" race="undead" experience="976" speed="127" manacost="0">
   <health now="130" max="130"/>
   <look type="1915" head="80" body="90" legs="95" feet="113" corpse="11879"/>
   <targetchange interval="10000" chance="0"/>

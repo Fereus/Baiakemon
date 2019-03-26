@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Larvitar" nameDescription="a shiny larvitar" race="ground" experience="0" speed="190" manacost="0">
+<monster name="Shiny Larvitar" nameDescription="a shiny larvitar" race="venom" experience="0" speed="190" manacost="0">
   <health now="40" max="40"/>
   <look type="1832" head="30" body="40" legs="95" feet="113" corpse="13525"/>
 	<targetchange interval="10000" chance="0"/>

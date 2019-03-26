@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Houndoom" nameDescription="a houndoom" race="fire2" experience="0" speed="230" manacost="0">
+<monster name="Houndoom" nameDescription="a houndoom" race="fire" experience="0" speed="230" manacost="0">
   <health now="40" max="40"/>
   <look type="933" head="60" body="77" legs="95" feet="113" corpse="3555"/>
 	<targetchange interval="10000" chance="0"/>

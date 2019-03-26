@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Azumarill" nameDescription="an azumarill" race="water" experience="292" speed="117" manacost="0">
+<monster name="Azumarill" nameDescription="an azumarill" race="blood" experience="292" speed="117" manacost="0">
   <health now="110" max="110"/>
   <look type="894" head="30" body="50" legs="95" feet="113" corpse="3270"/>
  <targetchange interval="10000" chance="0"/>

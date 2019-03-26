@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Stantler" nameDescription="a shiny stantler" race="normal" experience="904" speed="127" manacost="0">
+<monster name="Shiny Stantler" nameDescription="a shiny stantler" race="blood" experience="904" speed="127" manacost="0">
     <health now="180" max="180"/>
   <look type="1492" head="60" body="85" legs="95" feet="113" corpse="12603"/>
 	<targetchange interval="10000" chance="0"/>

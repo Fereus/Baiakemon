@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Lanturn" nameDescription="a lanturn" race="electric" experience="276" speed="124" manacost="0">
+<monster name="Lanturn" nameDescription="a lanturn" race="blood" experience="276" speed="124" manacost="0">
     <health now="100" max="100"/>
   <look type="690" head="15" body="35" legs="95" feet="113" corpse="3560"/>
 	<targetchange interval="10000" chance="0"/>

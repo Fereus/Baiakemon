@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Thorny Carnivine" nameDescription="a Carnivine" race="grass" experience="4798" speed="121" manacost="0">
+<monster name="Thorny Carnivine" nameDescription="a Carnivine" race="venom" experience="4798" speed="121" manacost="0">
  <health now="150" max="150"/>
   <look type="1521" head="45" body="65" legs="95" feet="113" corpse="251"/>
 	 <targetchange interval="10000" chance="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Ekans" nameDescription="a ekans" race="poison" experience="152" speed="130" manacost="0">
+<monster name="Ekans" nameDescription="a ekans" race="venom" experience="152" speed="130" manacost="0">
     <health now="50" max="50"/>
     <look type="379" head="10" body="25" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

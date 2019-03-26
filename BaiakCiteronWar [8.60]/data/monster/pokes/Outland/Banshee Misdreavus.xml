@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Banshee Misdreavus" nameDescription="a banshee misdreavus" race="ghost" experience="4150" speed="127" manacost="0">
+<monster name="Banshee Misdreavus" nameDescription="a banshee misdreavus" race="undead" experience="4150" speed="127" manacost="0">
     <health now="315" max="315"/>
   <look type="908" head="65" body="90" legs="95" feet="113" corpse="5964"/>
 	<targetchange interval="10000" chance="0"/>

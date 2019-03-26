@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Abra" nameDescription="a abra" race="psychic" experience="204" speed="104" manacost="0">
+<monster name="Abra" nameDescription="a abra" race="blood" experience="204" speed="104" manacost="0">
     <health now="30" max="30"/>
     <look type="634" head="10" body="30" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

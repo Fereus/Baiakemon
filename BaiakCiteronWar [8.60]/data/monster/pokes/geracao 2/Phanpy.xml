@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Phanpy" nameDescription="a phanpy" race="ground" experience="196" speed="127" manacost="0">
+<monster name="Phanpy" nameDescription="a phanpy" race="blood" experience="196" speed="127" manacost="0">
     <health now="40" max="40"/>
   <look type="1004" head="15" body="35" legs="95" feet="113" corpse="3583"/>
 	<targetchange interval="10000" chance="0"/>

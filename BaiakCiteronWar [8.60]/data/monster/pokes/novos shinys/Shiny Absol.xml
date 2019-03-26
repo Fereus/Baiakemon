@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Shiny Absol" nameDescription="a shiny absol" race="dark" experience="900" speed="175" manacost="0">
+<monster name="Shiny Absol" nameDescription="a shiny absol" race="undead" experience="900" speed="175" manacost="0">
   <health now="100" max="100"/>
   <look type="1839" head="75" body="90" legs="105" feet="113" corpse="13514"/>
 	<targetchange interval="10000" chance="0"/>

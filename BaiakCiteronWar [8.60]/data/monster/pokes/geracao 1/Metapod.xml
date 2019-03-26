@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Metapod" nameDescription="a metapod" race="bug" experience="72" speed="114" manacost="0">
+<monster name="Metapod" nameDescription="a metapod" race="blood" experience="72" speed="114" manacost="0">
     <health now="70" max="70"/>
     <look type="403" head="10" body="25" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>

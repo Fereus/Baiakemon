@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Charged Raichu" nameDescription="a charged raichu" race="electric" experience="4000" speed="152" manacost="0">
+<monster name="Charged Raichu" nameDescription="a charged raichu" race="blood" experience="4000" speed="152" manacost="0">
     <health now="305" max="305"/>
     <look type="401" head="65" body="80" legs="95" feet="113" corpse="5964"/>
     <targetchange interval="10000" chance="0"/>

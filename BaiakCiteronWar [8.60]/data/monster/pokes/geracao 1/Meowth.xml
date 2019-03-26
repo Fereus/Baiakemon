@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Meowth" nameDescription="a meowth" race="normal" experience="172" speed="127" manacost="0">
+<monster name="Meowth" nameDescription="a meowth" race="blood" experience="172" speed="127" manacost="0">
     <health now="40" max="40"/>
     <look type="477" head="10" body="30" legs="95" feet="113" corpse="2813"/>
     <targetchange interval="10000" chance="0"/>
