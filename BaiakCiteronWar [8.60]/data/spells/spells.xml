@@ -152,6 +152,18 @@
 		<vocation id="6"/>
 	</instant>
 
+	<instant name="Leaf Circle" words="leaf circle" lvl="60" mana="700" prem="1" exhaustion="2000" selftarget="1" needlearn="0" event="script" value="attack/leaf circle.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</instant>
+	
+	<instant name="Combo Leaf" words="combo leaf" lvl="12" mana="20" prem="1" range="6" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/combo leaf.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</instant>
+
 	<!-- Healing Spells -->
 	<instant name="Light Healing" words="exura" lvl="9" mana="20" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="healing/light healing.lua">
 		<vocation id="1"/>
@@ -370,12 +382,13 @@
 		<vocation id="3"/>
 		<vocation id="7"/>
 	</conjure>
-	<conjure name="Food" words="exevo pan" lvl="14" mana="120" soul="1" exhaustion="1000" needlearn="0" event="function" value="conjureFood">
+<!--<conjure name="Food" words="exevo pan" lvl="14" mana="120" soul="1" exhaustion="1000" needlearn="0" event="function" 		 value="conjureFood">
 		<vocation id="2"/>
 		<vocation id="3"/>
 		<vocation id="6"/>
 		<vocation id="7"/>
 	</conjure>
+-->
 	<conjure name="Poisoned Arrow" words="exevo con pox" lvl="16" mana="130" soul="2" conjureId="2545" conjureCount="7" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
 		<vocation id="3"/>
 		<vocation id="7"/>

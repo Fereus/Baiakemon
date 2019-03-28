@@ -43,8 +43,8 @@ elseif getPlayerStorageValue(player, marry_config.storage1) >= os.time() then
 npcHandler:say(msg.." already have a wedding invitation, wait.", cid) return true
 elseif getDistanceBetween(getCreaturePosition(cid), getCreaturePosition(player)) > marry_config.MaxSqm then
 npcHandler:say("you are far away from each other to get married.", cid) return true
-elseif marry_config.OnlyDifferentSex and getPlayerSex(cid) == getPlayerSex(player) then
-npcHandler:say("you can only marry the opposite sex", cid) return true
+--elseif marry_config.OnlyDifferentSex and getPlayerSex(cid) == getPlayerSex(player) then
+--npcHandler:say("you can only marry the opposite sex", cid) return true
 elseif not doPlayerRemoveMoney(cid, marry_config.Marry_Price) then
 npcHandler:say("Sorry, but you do not have "..marry_config.Marry_Price.." gp(s) to ask "..msg.." in marriage.", cid) return true
 end
