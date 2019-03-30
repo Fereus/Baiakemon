@@ -11897,7 +11897,7 @@
 		<attribute key="weight" value="200" />
 		<attribute key="attack" value="75" />
 		<attribute key="weaponType" value="distance" />
-		<attribute key="shootType" value="redstar" />
+		<attribute key="shootType" value="energy" />
 		<attribute key="range" value="4" />
 		<attribute key="breakChance" value="8" />
 		<attribute key="ammoAction" value="removecount" />
@@ -12887,6 +12887,9 @@
 		<attribute key="decayTo" value="2383" />
 		<attribute key="showcharges" value="1" />
 	</item>
+
+
+
 	<item id="7745" article="a" name="relic sword">
 		<attribute key="weight" value="4800" />
 		<attribute key="defense" value="24" />
@@ -15235,9 +15238,14 @@
 		<attribute key="weight" value="11000" />
 		<attribute key="defense" value="25" />
 		<attribute key="attack" value="120" />
-		<attribute key="weaponType" value="axe" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="shootType" value="18" />
 		<attribute key="extradef" value="3" />
+		<attribute key="range" value="6" />
 	</item>
+
+	
+
 	<item id="8926" article="a" name="demonwing axe">
 		<attribute key="weight" value="12000" />
 		<attribute key="defense" value="20" />

@@ -74,6 +74,7 @@
 	<talkaction words="!spells" event="script" value="spells.lua"/>
 	<talkaction words="/cast;!cast" event="script" value="cast.lua"/>
 	<talkaction words="!offer" event="script" value="auctionsystem.lua"/>
+	<talkaction words="!evoluir" event="script" value="evolution.lua"/>
 
 	<!-- Houses -->
 	<talkaction words="!buyhouse" filter="word-spaced" event="function" value="houseBuy"/>

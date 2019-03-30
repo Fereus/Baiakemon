@@ -39,7 +39,7 @@ violationNameReportActionType = 2
 autoBanishUnknownBytes = false
 
 worldType = "open"
-protectionLevel = 50
+protectionLevel = 150
 pvpTileIgnoreLevelAndVocationProtection = true
 pzLocked = 20 * 700
 huntingDuration = 60 * 1000
@@ -54,7 +54,7 @@ noDamageToSameLookfeet = false
 showHealingDamage = false
 showHealingDamageForMonsters = false
 fieldOwnershipDuration = 5 * 1000
-stopAttackingAtExit = false
+stopAttackingAtExit = true
 oldConditionAccuracy = false
 loginProtectionPeriod = 10 * 1000
 deathLostPercent = 10

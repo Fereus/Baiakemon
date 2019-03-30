@@ -37,21 +37,229 @@
 		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.4" shielding="1.1" fishing="1.1" experience="1.0"/>
 	</vocation>
 
-	<vocation id="9" name="Charmander" description="a charmander tank" needpremium="0" gaincap="25" gainhp="20" gainmana="5" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="9">
+	<vocation id="9" name="Charmander" description="a charmander tank" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="9">
 		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
 		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
 	</vocation>
 
-	<vocation id="10" name="Charmeleon" description="a charmeleon tank" needpremium="0" gaincap="25" gainhp="50" gainmana="10" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="9">
+	<vocation id="10" name="Charmeleon" description="a charmeleon tank" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="9">
 		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
 		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
 	</vocation>
 
-	<vocation id="11" name="Charizard" description="a charizard tank" needpremium="0" gaincap="25" gainhp="80" gainmana="15" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="10">
+	<vocation id="11" name="Charizard" description="a charizard tank" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="100" gainmanaticks="3" gainmanaamount="50" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="10">
 		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
 		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
 	</vocation>
 
+	<vocation id="12" name="Shiny Charizard" description="a shiny charizard tank" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" z="11">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	<vocation id="13" name="Charmander Ad" description="a charmander damage" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="13">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	<vocation id="14" name="Charmeleon Ad" description="a charmeleon damage" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="13">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<vocation id="15" name="Charizard Ad" description="a charizard damage" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="13">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<vocation id="16" name="Shiny Charizard Ad" description="a shiny charizard damage" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="13">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+
+				<!--Squirtle -->
+
+	<vocation id="17" name="Squirtle" description="a squirtle tank" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="17">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	<vocation id="18" name="Wartortle" description="a wartortle tank" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="17">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+		
+	<vocation id="19" name="Blastoise " description="a blastoise tank" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="18">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<vocation id="20" name="Shiny Blastoise" description="a shiny blastoise tank" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="19">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<vocation id="21" name="Squirtle Ad" description="a squirtle damage" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="21">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	<vocation id="22" name="Wartortle Ad" description="a wartortle damage" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="21">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<vocation id="23" name="Blastoise Ad" description="a blastoise damage" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="22">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<vocation id="24" name="Shiny Blastoise Ad" description="a shiny blastoise damage" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="23">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+
+	<!-- Abra-->
+
+	<vocation id="25" name="Abra" description="a abra" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="25">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	<vocation id="26" name="Kadabra" description="a kadabra" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="25">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	<vocation id="27" name="Alakazam" description="a alakazam" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="26">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	<vocation id="28" name="Shiny Alakazam" description="a shiny alakazan" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="27">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	<!-- Pikachu-->
+
+<vocation id="29" name="Pichu" description="a pichu" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="29">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<vocation id="30" name="Pikachu" description="a picachu" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="29">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<vocation id="31" name="Raichu" description="a raichu" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="30">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+
+	<vocation id="32" name="Shiny Raichu" description="a shiny raichu" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="31">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<!--Hunter -->
+
+
+	<vocation id="33" name="Gastly" description="a gastly" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="33">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+
+	<vocation id="34" name="Haunter" description="a haunter" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="33">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+
+	<vocation id="35" name="Gengar" description="a gengar" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="34">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+
+	<vocation id="36" name="Shiny Gengar" description="a shiny gengar" needpremium="0" gaincap="10" gainhp="50" gainmana="265" gainhpticks="3" gainhpamount="150" gainmanaticks="2" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="35">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.1" shielding="1.5" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	
+
+<!-- Machamp -->
+	
+	<vocation id="37" name="Machop" description="a machop" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="37">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	<vocation id="38" name="Machoke" description="a machoke" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="37">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<vocation id="39" name="Machamp" description="a machamp" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="38">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+	<vocation id="40" name="Shiny Machamp" description="a shiny machamp" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="39">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+<!--Bulbasaur -->
+
+	<vocation id="41" name="Bulbasaur" description="a bulbasaur" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="41">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+		<vocation id="42" name="Ivysaur" description="a ivesaur" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="41">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+		<vocation id="43" name="Venusaur" description="a venusaur" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="42">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+
+		<vocation id="44" name="Shiny Venusaur" description="a shiny venusaur" needpremium="0" gaincap="25" gainhp="260" gainmana="50" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="43">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
+	</vocation>
+
+	
 
 
 <!--
