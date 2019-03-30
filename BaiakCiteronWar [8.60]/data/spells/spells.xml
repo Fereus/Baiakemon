@@ -601,6 +601,7 @@
 		<vocation id="3"/>
 		<vocation id="7"/>
 	</conjure>
+	<instant name="Evolution" words="evolution" aggressive="0" params="1" lvl="1" maglv="0" mana="0" soul="0" exhaustion="1" prem="0" enabled="1" script="suporte/evolution.lua"></instant>
 
 
 </spells>

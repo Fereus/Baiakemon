@@ -38,7 +38,7 @@
 	</vocation>
 
 	<vocation id="9" name="Charmander" description="a charmander tank" needpremium="0" gaincap="25" gainhp="20" gainmana="5" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="9">
-		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0" corpse="2920"/>
 		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
 	</vocation>
 
@@ -47,7 +47,7 @@
 		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
 	</vocation>
 
-	<vocation id="11" name="Charizard" description="a charizard tank" needpremium="0" gaincap="25" gainhp="80" gainmana="15" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="10"
+	<vocation id="11" name="Charizard" description="a charizard tank" needpremium="0" gaincap="25" gainhp="80" gainmana="15" gainhpticks="2" gainhpamount="400" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.4" attackspeed="200" soulmax="100" gainsoulticks="120" fromvoc="10">
 		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
 		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.0"/>
 	</vocation>

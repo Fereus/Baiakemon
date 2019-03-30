@@ -1,4 +1,4 @@
-accountManager = true
+accountManager = false
 namelockManager = false
 newPlayerChooseVoc = true
 newPlayerSpawnPosX = 160
@@ -153,9 +153,9 @@ maxMessageBuffer = 4
 bufferMutedOnSpellFailure = false
 
 dataDirectory = "data/"
-allowChangeOutfit = true
-allowChangeColors = true
-allowChangeAddons = true
+allowChangeOutfit = false
+allowChangeColors = false
+allowChangeAddons = false
 disableOutfitsForPrivilegedPlayers = false
 bankSystem = true
 saveGlobalStorage = true

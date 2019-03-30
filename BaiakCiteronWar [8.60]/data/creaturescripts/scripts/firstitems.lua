@@ -49,6 +49,16 @@ firstItems[4] =
 2478,
 2643
 }
+firstItems[9] =
+{
+2173,
+2525,
+2428,
+2124,
+2460,
+2478,
+2643
+}
 
 function onLogin(cid)
 if getPlayerStorageValue(cid, 30001) == -1 then
