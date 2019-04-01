@@ -172,7 +172,7 @@ ghostModeInvisibleEffect = false
 ghostModeSpellEffects = true
 
 idleWarningTime = 14 * 60 * 1000
-idleKickTime = 1000 * 1000 * 10000
+idleKickTime = 15 * 60 * 1000
 expireReportsAfterReads = 1
 playerQueryDeepness = 2
 maxItemsPerPZTile = 0
@@ -181,7 +181,7 @@ maxItemsPerHouseTile = 0
 freePremium = true
 premiumForPromotion = true
 
-blessingOnlyPremium = true
+blessingOnlyPremium = false
 blessingReductionBase = 30
 blessingReductionDecreament = 5
 eachBlessReduction = 8

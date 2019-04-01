@@ -14,9 +14,7 @@ function onLogin(cid)
 		if(lastLogin > 0) then
 			doPlayerSendTextMessage(cid, MESSAGE_STATUS_DEFAULT, str)
 			str = "Your last visit was on " .. os.date("%a %b %d %X %Y", lastLogin) .. "."
-		else
-			str = str .. " Please choose your outfit."
-			doPlayerSendOutfitWindow(cid)
+		
 		end
 
 		doPlayerSendTextMessage(cid, MESSAGE_STATUS_DEFAULT, str)
@@ -100,6 +98,35 @@ if getPlayerStorageValue(cid, 48913) == -1 then
         setPlayerStorageValue(cid, 48913, 0) 
     end 
 
+onLogin2(cid)
     
 return true
+end
+
+local config = {
+[9] = 401, -- [ID DA VOCATION] = Numero do outfit
+[13] = 401, -- charmander
+[17] = 2177, --Squirtle
+[21] = 2177, --Squirtle
+[25] = 2424, --Abra
+[29] = 2500, -- pichu
+[33] = 2223, --gastly
+[37] = 2288, --machop
+[41] = 2200 --bulbasaur
+
+
+}
+
+
+function onLogin2(cid)
+if (not config[getPlayerVocation(cid)]) then
+return TRUE
+end
+
+if getPlayerAccess(cid) >= 3 then
+return TRUE
+end
+
+doCreatureChangeOutfit(cid, {lookType = config[getPlayerVocation(cid)]})
+return TRUE
 end
