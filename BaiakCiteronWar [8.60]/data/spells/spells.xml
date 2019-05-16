@@ -147,22 +147,42 @@
 		<vocation id="2"/>
 		<vocation id="6"/>
 	</instant>
-	<instant name="Wrath of Nature" words="exevo gran mas tera" lvl="55" mana="770" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="attack/wrath of nature.lua">
-		<vocation id="2"/>
-		<vocation id="6"/>
+	<instant name="Wrath of Nature" words="nature" lvl="55" mana="770" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="bulbasaur/wrath of nature.lua">
+		<vocation id="41"/>
+		<vocation id="42"/>
+		<vocation id="43"/>
+		<vocation id="44"/>
 	</instant>
 
 	<instant name="Leaf Circle" words="leaf circle" lvl="60" mana="700" prem="1" exhaustion="2000" selftarget="1" needlearn="0" event="script" value="attack/leaf circle.lua">
-		<vocation id="1"/>
-		<vocation id="5"/>
+		<vocation id="41"/>
+		<vocation id="42"/>
+		<vocation id="43"/>
+		<vocation id="44"/>
 	</instant>
 	
 	<instant name="Combo Leaf" words="combo leaf" lvl="12" mana="20" prem="1" range="6" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/combo leaf.lua">
-		<vocation id="1"/>
-		<vocation id="2"/>
-		<vocation id="5"/>
-		<vocation id="6"/>
+		<vocation id="41"/>
+		<vocation id="42"/>
+		<vocation id="43"/>
+		<vocation id="44"/>
 	</instant>
+
+
+	<instant name="Wrath of Nature min" words="nature min" lvl="1" mana="1" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="bulbasaur/wrath of nature min.lua">
+		<vocation id="41"/>
+		<vocation id="42"/>
+		<vocation id="43"/>
+		<vocation id="44"/>
+	</instant>
+
+	<instant name="Wrath of Nature max" words="nature max" lvl="1" mana="1" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="bulbasaur/wrath of nature max.lua">
+		<vocation id="41"/>
+		<vocation id="42"/>
+		<vocation id="43"/>
+		<vocation id="44"/>
+	</instant>
+
 
 	<!-- Healing Spells -->
 	<instant name="Light Healing" words="exura" lvl="9" mana="20" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="healing/light healing.lua">

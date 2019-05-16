@@ -559,4 +559,6 @@ action fromid="10511" toid="10516" event="script" value="tools/all.lua"/>
 <action itemid="8981" script="sistemavipe.lua"/>
 <action itemid="9004" script="sistemavipee.lua"/>
 
+<action itemid="2666" script="upgradespell.lua"/>
+
 </actions>
